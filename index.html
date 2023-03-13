@@ -7,33 +7,37 @@
     <title>班级主题</title>
 </head>
 <style>
-     table.stu td,
-      table.stu th {
-        border: 1px solid #ddd;
-        padding: 8px;
-      }
-     table.stu th {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        text-align: left;
-        background-color: #04aa6d;
-        color: white;
-      }
-      table.stu {
-        font-family: Arial, Helvetica, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-      }
-      button.tablink {
+  button.tablink {
         background-color: inherit;
         float: left;
         border: none;
         outline: none;
         cursor: pointer;
         padding: 14px 16px;
-        transition: 0.3s;
         font-size: 17px;
         text-align: right;
+      }
+     /* 设置每月作业表格每行的边框 */
+     table.stu td,
+      table.stu th {
+        /* 设置边框宽度，边框线类型，颜色 */
+        border: 1px solid #ddd;
+        /* 设置内容与边框的距离 */
+        padding: 8px;
+      }
+      /* 设置每一份表格的样式 */
+      table.stu {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      /* 设置表格头部的样式 */
+     table.stu th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04aa6d;
+        color: white;
       }
       h1 {
         text-align: center;
@@ -46,6 +50,9 @@
       }
       a:hover {
         color: red;
+      }
+      tr:hover {
+        background-color: #ddd;
       }
 </style>
 <body>
