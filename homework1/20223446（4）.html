@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>了解的知识</title>
+    <style>
+        h1{
+            font-size: 40px;
+            font-weight: normal;
+            background-color: rgb(122, 122, 163);
+        }
+        h1.c1{
+            font-size: 50px;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration:underline; /*加下划线*/
+        }
+        p{
+            font-family: "Microsoft YaHei";
+            text-align: center;
+            font-size: 30px;
+        }
+        p.c1{
+            text-align: left;
+            font-size: 30px;
+        }
+        body {
+            
+            background-image: url(https://img0.baidu.com/it/u=2888037874,1173586368&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500);/* 加载背景图 */
+           
+            background-position: center center; /* 背景图垂直、水平均居中 */
+            
+            background-repeat: no-repeat;/* 背景图不平铺 */
+           
+            background-attachment: fixed; /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+            
+            background-size: cover;/* 让背景图基于容器大小伸缩 */
+            
+            background-color: #464646;/* 设置背景颜色，背景图加载过程中会显示背景色 */
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        语义化
+    </h1>
+    <p>
+        语义化是指用合理HTML标记以及其特有的属性去格式化文档内容。
+    </p>
+    <h1 class="c1">
+        常见标签
+    </h1>
+    <p>
+        1、body标签<br>
+        网页身体标签，所有网页内容都在里面，存放各种标签
+        <br>
+        2、div盒子标签<br>
+        一般划分一个个区域，构建骨架思路会用到。用于存放：文字、图片、内容等
+        <br>
+        3、p文本段落标签<br>
+        为文本段落标签，可存放大段落文字
+        <br>
+        4、h1~h6 标题标签<br>
+        h1到h6级别逐渐减小
+        书写规范，一个页面只允许出现一个h1（一级标题标签），若重复出现网页会分不清主次内容，就像一篇作文只能有一个作文题目一样。
+        <br>
+        5、b标签和strong标签（文字加粗标签）<br>
+        都是用于加粗文字的。二者区别是：strong标签是为了突出重点
+        <br>
+        6、span文字包裹标签<br>
+        包裹文字的标签。<br>
+        p标签和span标签的区别是：p标签会自动换行，而span标签不会自动换行。一般短的语句可以用span标签包裹，长点的用p标签包裹。
+        <br>
+        7、br换行标签和hr分隔符标签<br>
+        br标签和hr标签都是但标签<br>
+        br标签是换行标签<br>
+        hr标签是分隔符标签
+        <br>
+        8、i标签和em标签（文字斜体标签）<br>
+        二者都是斜体标签，使文字呈现倾斜效果<br>
+        二者区别：em标签更容易被浏览器识别到
+        <br>
+        9、del删除标签<br>
+        一般用于价格删除线
+        <br>
+        10、center居中标签<br>
+        使文本居中
+        <br>
+        11、sup上标和sub下标<br>
+        标签的内容将会在当前字符高度的一半为基准线的下/上方,字体大小会小一点。
+        <br>
+        12、pre预格式化标签<br>
+        被包围在pre标签中的文本通常会保留空格和换行符， 而文本也会呈现出等宽字体。
+        <br>
+        ————————————————
+    </p>
+        <a href="https://blog.csdn.net/xu_yuxuyu/article/details/121013177?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167895773616800213032572%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=167895773616800213032572&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-121013177-null-null.142^v73^insert_down2,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=%E6%A0%87%E7%AD%BE&spm=1018.2226.3001.4187">
+            更多标签
+        </a>
+    <h1>
+        HTML页面基本结构
+    </h1>
+    <p class="c1">
+        HTML的页面结构非常简单，整体分为两部分，第一部分为DOCTYPE模块，第二部分为html模块。<br>
+
+        DOCTYPE模块<br>
+
+        文档声明，位于页面的首行，告知浏览器使用哪种HTML版本规范方式解析网页，使网页能正常显示。<br>
+
+        html模块<br>
+
+        告诉页面这是一个html文档。<br>
+
+        在<html>部分中，又分为两小部分，第一部分为head模块，第二部分为body模块。<br>
+
+        head模块<br>
+
+        如果用人体的结构来类比的话，这部分属于网页的头部，这部分中描述了HTML文件的各种属性和信息，如网页的标题，字符编码，是否启用缓存，引用的外部脚本和样式等等。在这head标签里写的内容不会在网页的正文内容中显示出来。
+        <br>
+        body模块<br>
+
+        HTML的主体，网页的文本、超链接、图像、表格、视频等所有在网页上显示的内容都写在这里。<br>
+
+        title标签<br>
+
+        在head标签中title标签表示网页的标题。meta标签-提供有关页面的元信息，比如针对搜索引擎的关键字、缓存时间、启用浏览器内核等等，meta标签有两个主要属性name和http-equiv。
+        <br>
+        meta标签name属性
+        <br>
+        主要用于描述网页，比如定义网页的关键词，关键内容、标注作者、版权等。
+    </p>
+    <h1>
+        CSS简介
+    </h1>
+    <p>
+        层叠样式表(英文全称：Cascading Style Sheets)是一种用来表现HTML（标准通用标记语言的一个应用）或XML（标准通用标记语言的一个子集）等文件样式的计算机语言。CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化.
+    </p>
+    <p>
+        CSS 能够对网页中元素位置的排版进行像素级精确控制，支持几乎所有的字体字号样式，拥有对网页对象和模型样式编辑的能力.
+    </p>
+    <ul>
+        <a href="https://baike.baidu.com/item/CSS%E8%AF%AD%E6%B3%95?fromModule=lemma_search-box"><li>CSS语法</li></a>
+        <a href="https://blog.csdn.net/cool99781/article/details/106125482?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167902703716800211525969%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=167902703716800211525969&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-106125482-null-null.142^v74^insert_down2,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=CSS%E5%BA%94%E7%94%A8%E6%96%B9%E5%BC%8F&spm=1018.2226.3001.4187"><li>CSS应用方式</li></a>
+        <a href="https://blog.csdn.net/chenyiboke/article/details/102810031?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167902709816800192247389%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=167902709816800192247389&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-102810031-null-null.142^v74^insert_down2,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=css%E5%9F%BA%E7%A1%80%E9%80%89%E6%8B%A9%E5%99%A8&spm=1018.2226.3001.4187"><li>基础选择器</li></a>
+        <a href="https://blog.csdn.net/weixin_59605625/article/details/122667510?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167902714516800215041576%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=167902714516800215041576&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-122667510-null-null.142^v74^insert_down2,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=css%E5%A4%8D%E6%9D%82%E9%80%89%E6%8B%A9%E5%99%A8&spm=1018.2226.3001.4187"><li>复杂选择器</li></a>
+        <a href=""><li></li></a>
+        <a href=""><li></li></a>
+    </ul>
+</body>
+</html>
