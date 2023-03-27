@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>青春不常在，抓紧谈恋爱</h3>
+    <table  width="500">
+         <tr>
+            <td>性别</td>
+            <td>
+                <!-- 用同一个name就实现单选的效果 -->
+                <!-- <label></label>标签中for属性与id属性一样时，可以通过点击文字实现勾选 -->
+                <input type="radio" name="sex"  id="nan"> <label for="nan">男</label>
+                <input type="radio" name="sex" id="nv"> <label for="nv">女</label>
+            </td>
+         </tr>
+         <tr>
+            <td>生日</td>
+            <td>
+                <!-- <select></select>标签实现下拉表单，通过<option></option>标签实现 -->
+                <select>
+                    <option>-请选择年-</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                </select>
+                <select>
+                    <option>-请选择月-</option>
+                    <option>4</option>
+                    <option>6</option>
+                    <option>8</option>
+                </select>
+                <select>
+                    <option>-请选择日-</option>
+                    <option>10</option>
+                    <option>20</option>
+                    <option>30</option>
+                </select>
+            </td>
+         </tr>
+         <tr>
+            <td>所在地区</td>
+            <!-- value后面的属性值时刚开文本框里面默认显示的文字
+             <!-- text是文本标签，后面也可以通过textarea文本域标签，定义多行的文本输入 -->
+            <td>
+                <input type="text" value="江西宜春">
+            </td>
+         </tr>
+         <tr>
+            <td>婚姻状况：</td>
+            <td>
+                <input type="radio" name="marry" id="wh"  checked="checked"><label for="wh">未婚</label>
+                <input type="radio" name="marry" id="yh"><label for="yh">已婚</label>
+                <input type="radio" name="marry" id="lh"><label for="lh">离婚</label>
+            </td>
+         </tr>
+         <tr>
+            <td>学历：</td>
+            <td>
+                <input type="text"  value="本科">
+            </td>
+         </tr>
+         <tr>
+            <td>喜欢的类型：</td>
+            <td>
+                <!-- 用checkbox标签去定义复选框 -->
+                <input type="checkbox" name="love">御姐型  
+                <input type="checkbox" name="love">妩媚型
+                <input type="checkbox" name="love">可爱型
+                <input type="checkbox" name="love">都喜欢 
+            </td>
+         </tr>
+         <tr>
+            <td>自我介绍</td>
+            <td>
+                <!-- <textarea name="" id="" cols="30" rows="10"></textarea>标签定义文本域 -->
+                <textarea name="" id="" cols="50" rows="5">自我介绍</textarea>
+            </td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>
+                <!-- sumbit标签用于提交按键 -->
+                <input type="submit" value="免费注册">
+            </td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" checked="checked" id="ty"><label for="ty">我同意注册条款和会员加入标准</label>
+            </td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>
+                <a href="#">我是会员，立即注册</a>
+            </td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>
+                <h4>我承诺</h4>
+                <ul>
+                    <li>年满18岁，单身</li>
+                    <li>抱着严谨的态度</li>
+                    <li>真诚找寻另一半</li>
+                </ul>
+            </td>
+         </tr>
+    </table>
+</body>
+</html>
