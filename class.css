@@ -51,7 +51,7 @@ img:hover {
   position: relative;
   margin: 10px ;
   width: 150px;
-  height: 240px;
+  height: 250px;
 }
 
 .name {
@@ -59,16 +59,13 @@ img:hover {
   top: 210px;
   left: 10px;
   width: 154px;
-  height: 30px;
+  height: 40px;
   background-color: red;
   color: black;
   /* display: none; */
 }
 
-/* div.photo:hover .name {
-  display: block;
-  width: 154px;
-  height: 30px;
-  background-color: yellow;
-  color: red;
-} */
+span {
+    font-size: 20px;
+    line-height: 35px;
+}
