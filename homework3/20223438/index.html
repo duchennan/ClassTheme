@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人作业界面</title>
+    <style>
+       a{
+        text-decoration: none ;
+        color: brown ;
+       }
+       h1{
+        text-align: center ;
+        /* rgba中a表示的是透明度 */
+        background-color:rgba(127, 238, 255, 0.93) ;
+       }
+       table{
+        font-size: 25px ;
+        background-color: antiquewhite;
+        border: 1px solid black ;
+        border-collapse:  collapse ;
+       }
+       th{
+        border: 1px solid black ;
+        width: 400px ;
+        height: 50px ;
+       }
+       body{
+        background: url(./image/chunse.jpg) ;
+       }
+       img{
+        width: 600px ;
+        height: 70px ;
+       }
+       p{
+        text-align: center ;
+        font-size: 15px ;
+       }
+    </style>
+</head>
+<body>
+    <img src="./image/xiao.jpg">
+    <!-- 图片文件相对于html文件位于下一级路径 -->
+    <!-- 理解相对路径，其实就是相对于本html文件的位置，本html文件与image文件夹在同一级，所以image中的图片位于html的下一级 -->
+    <h1>20223438个人作业汇总页面</h1>
+    <!-- 也可以< class="table-col-border">利用嵌套选择器，分组选择器去实现控制 -->
+    <table>
+        <tr>
+            <th><a href="01.html" target="_blank">number01</a></th>
+            <th><a href="02.html" target="_blank">number02</a></th>
+            <th><a href="03.html" target="_blank">number03</a></th>
+            <th><a href="logon.html" target="_blank">number04</a></th>
+            <th><a href="05.html">number05</a></th>
+        </tr>
+        <tr>
+            <th><a href="#">number06</a></th>
+            <th><a href="#">number07</a></th>
+            <th><a href="#">number08</a></th>
+            <th><a href="#">number09</a></th>
+            <th><a href="#">number10</a></th>
+        </tr>
+        <tr>
+            <th><a href="#">number11</a></th>
+            <th><a href="#">number12</a></th>
+            <th><a href="#">number13</a></th>
+            <th><a href="#">number14</a></th>
+            <th><a href="#">number15</a></th>
+        </tr>
+        <tr>
+            <th><a href="#">number16</a></th>
+            <th><a href="#">number17</a></th>
+            <th><a href="#">number18</a></th>
+            <th><a href="#">number19</a></th>
+            <th><a href="#">number20</a></th>
+        </tr>
+    </table>
+    <strong>
+    <p class="footer">负责人：曹佳新&nbsp;&nbsp;&nbsp;联系电话：2316910773</p>
+    <p class="footer">地址：南昌市南昌县小蓝经济开发区金沙二路1888号</p>
+    </strong>
+</body>
+</html>

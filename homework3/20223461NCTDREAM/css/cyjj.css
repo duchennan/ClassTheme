@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+    
+    body{
+    background-color: black;
+    background-repeat: no-repeat;
+     background-size: cover;
+    
+    }
+    .biaoti h1{
+        color:rgb(143, 133, 137);
+        font-size:80px;
+        top: 0;
+        font-family: 'Arial black';
+        text-shadow: 3px 3px rgb(185, 214, 224);
+        text-align: center;
+    }
+    main{
+        clear: left;
+        
+        }
+        main img{
+            float: left;
+        }
+        li{
+            line-height: 40px;
+            float: left;
+            width: 16.667%;
+            text-align: center;
+            font-size: 16px;
+            background-color: white;
+            list-style-type: none;
+        
+        }
+        .nct{
+            width: 1300px;
+          margin: 0 auto;
+          height: 200px;
+        }
+        .nav a{
+            color: rgb(12, 9, 9);
+            text-decoration: none;
+        }
+        
+        .cyjj{
+            color: aliceblue;
+            margin-top: 20px;
+            font-size: 30px;
+          padding: 0px;
+
+        }
+        .cyjj img{
+            border-radius: 100%;
+        }
+        .cyjj p{
+            width: 630px;
+        }
+        tr{
+            height: 400px;
+        }
+
+        td{
+            width: 300px;
+        }
+        .down{
+            text-align: center;
+            background-color: white;
+            font-size: 15px;
+            margin-top: 20px;
+        }
