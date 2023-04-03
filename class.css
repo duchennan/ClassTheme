@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: content-box;
+}
+
+img {
+	width: 150px;
+	height: 200px;
+	border: 2px solid red;
+	margin: 10px;
+}
+
+body {
+  background-color : rgb(200,250,250) ;
+  height: 5000px;
+}
+
+h1{
+    text-align: center ;
+    color : red ;
+    background-color : yellow ;
+    height: 75px ;
+    line-height : 85px ;
+    /*display: block ;*/
+   }
+
+img:hover {
+       border: 2px solid yellow;
+}
+
+.photo:hover .name {
+     background-color: yellow;
+     color: red;
+}
+
+.stu-photo {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.stu-photo1 {
+  width: 550px;
+  margin: auto;
+  text-align: center;
+}
+
+.photo {
+  display: inline-block;
+  position: relative;
+  margin: 10px ;
+  width: 150px;
+  height: 240px;
+}
+
+.name {
+  position: absolute;
+  top: 210px;
+  left: 10px;
+  width: 154px;
+  height: 30px;
+  background-color: red;
+  color: black;
+  /* display: none; */
+}
+
+/* div.photo:hover .name {
+  display: block;
+  width: 154px;
+  height: 30px;
+  background-color: yellow;
+  color: red;
+} */
