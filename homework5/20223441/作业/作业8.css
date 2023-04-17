@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(199, 185, 32, 0.025);
+}
+h1{
+    text-align: center;
+    color: aqua;
+}
+input{
+    font-size:30px;
+    margin: 10px;
+}
+div{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+#size{
+    height: 50px;
+    font-size:30px;
+}
