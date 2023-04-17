@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.header{
+    width: 80%;
+    height: 60px;
+    background: brown;
+    line-height: 60px;
+    padding: 0 10%;
+}
+.logo{
+    float: left;
+}
+.nav{
+    float: right;
+}
+.nav a{
+    margin-left: 70px;
+    /* 给左边距就可以 */
+    text-decoration: none;
+    color: gold;
+    font-size: 20px;
+}
+.nav a:hover{
+    color:aquamarine;
+    /* 链接伪类选择器 */
+}

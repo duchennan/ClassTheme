@@ -1,0 +1,166 @@
+/*css初始化*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav_content ul li{
+    float: left;
+    list-style: none;/*去掉列表默认样式*/
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.nav_content ul li:hover{
+    background-color: rgba(0,0,0,0.1);
+
+}
+.nav_content{
+    margin-top:80px ;
+    margin-left: 40px;
+    line-height: 10px;
+    float: left;
+}
+button{
+    border: none;/*取消button自带边框*/
+}
+.search{
+    float: left;
+    height: 52px;
+    line-height:0px;
+    margin-top: 80px;
+    margin-right: 30px;
+    margin-left: 40px;
+}
+.search input{
+    outline: none;/*取消默认的外边框*/
+    border: 1px solid blue;
+    height: 30px;
+    padding-left:15px ;
+    float: left;
+}
+.search button{
+    float: left;
+    position: relative;
+    top: 0px;
+    bottom:20px;
+}
+.logo{
+    float: left;
+    margin-left: 200px;
+    margin-bottom: 40px;
+}
+.header{
+    width: 1500px;
+    margin: 0px auto;
+}
+.content{
+    clear: both;/*清除浮动*/
+    height: 400px;
+    background: radial-gradient(#99CCFF,#99CFFF);   
+}
+.contral{
+    width:1500px;
+    margin: 0px auto;
+}
+.right_box{
+    float: left;
+    margin-left: 160px;
+    width: 200px;
+    height: 400px;
+    color: aliceblue;
+    background-color: rgba(0,0,0,0.2);
+}
+.imge_playing{
+    float: left;
+}
+.right_box ul{
+    list-style: none;
+    font-size: 25px;
+    padding: 0px 20px;
+}
+.right_box ul li{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.imge_playing img{
+    height: 400px;
+    width: 820px;
+}
+.right_box ul li:hover{
+    background-color: rgba(0,0,0,0.2);
+    color: #FFFFFF;
+}
+.right_box ul li::after{
+    content: '>';
+    float: right;
+}
+.left_box{
+    float: left;
+    width: 200px;
+    font-size: 25px;
+}
+.left_box ol li{/*left_box样式*/
+    list-style: none;
+}
+.left_box ol h2{/*标题*/
+    text-align: center;
+}
+.left_box ol li{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: 200px;
+    clear: both;
+}
+.left_box ol li a::after{
+    content: '->';
+    float: right;
+}
+.left_box ol li:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+.left_box ol li a:hover{
+    color:white;
+}
+.bottom_display,.c_comic,.j_comic,.e_comic,.m_comic{
+    margin: 0px auto;
+    width: 1500px;
+    margin-top: 20px;
+}
+h3{
+    font-size: 30px;
+    padding-left: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.c_comic img{
+    width: 250px;
+    height: 300px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+
+}
+.j_comic img{
+    width: 250px;
+    height: 300px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+}
+.e_comic img{
+    width: 250px;
+    height: 300px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+}
+.m_comic img{
+    width: 250px;
+    height: 300px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+}

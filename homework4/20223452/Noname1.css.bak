@@ -1,0 +1,31 @@
+h1{
+   color: red;
+   text-align: center;
+   }
+
+   nav{
+     text-align: center;
+	  }
+
+	 a{
+	   text-decoration: none;
+	   border: solid;
+	   font-size: 60px;
+	   }
+
+    .w1{
+        position: absolute; top: 700px; left: 50px;
+		font-size: 60px;
+		color: red;
+		}
+
+	.t2{
+        width: 130%;
+		height:130%;
+	    }
+
+     .w2{
+	     position: absolute; top: 2000px; left: 1500px;
+		font-size: 60px;
+		color: blue;
+		}

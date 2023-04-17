@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 955px;
+            height: 1420px;
+            margin: 0 auto;
+            display: flex;
+            /* background-color: yellow; */
+            flex-direction: column;
+        }
+        header{
+            height: 124px;
+            background-color: #232939;
+            display: flex;
+            /* 弹性盒内行内元素会变成块级元素 */
+            color: white;
+        }
+        .box header i{
+            /* 不加.box图标会因为权重问题放大不了 也可以在48px后加!important*/
+            width: 118px;
+            height: 124px;
+            line-height: 124px;
+            text-align: center;
+            font-size: 48px;
+        }
+        header span{
+            flex: 1;
+            height: 124px;
+            line-height: 124px;
+            font-size: 40px ;
+        }
+       footer{
+            height: 128px;
+            background-color: grey;
+        }
+        section{
+            flex: 1;
+        }
+        .main{
+            display: flex;
+            height: 278px;
+            background-color: #232939;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .main div{
+            width: 120px;
+            height: 168px;
+            /* background-color: red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .main div i{
+            font-size: 110px;
+            text-align: center;
+            color: white;
+        }
+        .main div span{
+            font-size: 32px;
+            text-align: center;
+            color: white;
+        }
+        .list{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: white;
+        }
+        .list div{
+            width: 25%;
+            height: 208px;
+            border: 1px solid gray;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .list div i{
+            line-height: 77px;
+            height: 77px;
+            text-align: center;
+            font-size: 55px;
+            color: orange;
+            /* 设置了flex-direction: column;不用再设置宽度，宽度会自动拉伸 */
+        }
+        .list div span{
+            line-height: 61px;
+            height: 61px;
+            text-align: center;
+            font-size: 30px;
+        }
+        footer{
+            height: 128px;
+            background-color: grey;
+            display: flex;
+
+        }
+        footer div{
+            /* flex都是1平分footer */
+            flex: 1;
+            border: 1px solid black;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .box footer div i{
+            height: 66px;
+            line-height: 66px;
+            font-size: 58px;
+            text-align: center;
+        }
+        footer div span{
+            height: 36px;
+            line-height: 36px;
+            font-size: 28px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <header>
+            <i class="iconfont icon-anquan"></i>
+            <span>安全</span>
+            <i class="iconfont icon-bangzhu"></i>
+            <i class="iconfont icon-caidan"></i>
+            <i class="iconfont icon-ditu"></i>
+        </header>
+        <section>
+            <div class="main">
+                <div>
+                    <i class="iconfont icon-caidan"></i>
+                    <span>菜单</span>
+                </div>
+                <div>
+                    <i class="iconfont icon-caidan"></i>
+                    <span>菜单</span>
+                </div>
+                <div>
+                    <i class="iconfont icon-caidan"></i>
+                    <span>菜单</span>
+                </div>
+                <div>
+                    <i class="iconfont icon-caidan"></i>
+                    <span>菜单</span>
+                </div>
+            </div>
+            <div class="list">
+                <div>
+                    <i class="iconfont icon-bangzhu"></i>
+                    <span>帮助</span>
+                </div>
+                <div>
+                    <i class="iconfont icon-bangzhu"></i>
+                    <span>帮助</span>
+                </div>
+                <div>
+                    <i class="iconfont icon-bangzhu"></i>
+                    <span>帮助</span>
+                </div>
+                <div>
+                    <i class="iconfont icon-bangzhu"></i>
+                    <span>帮助</span>
+                </div>
+                <div>
+                    <i class="iconfont icon-bangzhu"></i>
+                    <span>帮助</span>
+                </div>
+                <div>
+                    <i class="iconfont icon-bangzhu"></i>
+                    <span>帮助</span>
+                </div>
+                <div>
+                    <i class="iconfont icon-bangzhu"></i>
+                    <span>帮助</span>
+                </div>
+                <div>
+                    <i class="iconfont icon-bangzhu"></i>
+                    <span>帮助</span>
+                </div>
+                <div>
+                    <i class="iconfont icon-bangzhu"></i>
+                    <span>帮助</span>
+                </div>
+                <div>
+                    <i class="iconfont icon-bangzhu"></i>
+                    <span>帮助</span>
+                </div>
+                <div>
+                    <i class="iconfont icon-bangzhu"></i>
+                    <span>帮助</span>
+                </div>
+                <div>
+                    <i class="iconfont icon-bangzhu"></i>
+                    <span>帮助</span>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <i class="iconfont icon-bangzhu"></i>
+                <span>帮助</span>
+            </div>
+            <div>
+                <i class="iconfont icon-bangzhu"></i>
+                <span>帮助</span>
+            </div>
+            <div>
+                <i class="iconfont icon-bangzhu"></i>
+                <span>帮助</span>
+            </div>
+            <div>
+                <i class="iconfont icon-bangzhu"></i>
+                <span>帮助</span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
