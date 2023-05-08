@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .id{
+            margin: 15px;
+        }
+        .box1{
+            background-color: rgb(255, 38, 0);
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;        }
+        .box2{
+            background-color: rgb(243, 243, 114);
+            text-align: center;
+        }
+        .content1{
+            margin-left: 10px;
+        }
+        ul {
+            height: 150px;
+            display: flex;
+            flex-wrap: wrap;/*设置子元素换行*/
+             align-content: flex-start;/*从头部开始排列 */
+            justify-content: center;/*在主轴居中对齐*/
+        }
+        ul li {
+            width: 40%;
+            list-style: none;
+            margin-top: 20px;
+         }
+        .content1 ul li .right {
+            width: 350px; 
+            height: 30px; 
+            background-color: #f7e7cd;
+             line-height: 30px; 
+            border-radius: 10px;
+        }
+        .content1 ul li .right .span-right {
+            float: left;
+            width: 165px; 
+            height: 30px; 
+            background-color: orange; 
+            border-radius: 10px; 
+            box-shadow: 2px 0px 2px black;
+        }
+        .content1 ul li .right .span-left {
+            float: left;
+            margin-left: 10px;
+        }
+        .box1 h2{
+            text-align: center;
+            color: rgb(255, 38, 0);
+            background-color: rgb(243, 243, 114);
+            width: 200px;
+            margin: auto;
+            border-radius: 15px;
+            box-shadow: 2px 2px 2px;
+
+        }
+        .box2 h2{
+            color: rgb(243, 243, 114);
+            background-color: rgb(255, 38, 0);
+            width: 200px;
+            margin: auto;
+            border-radius: 15px;
+            box-shadow: 2px 2px 2px;
+        }
+        h1{
+            float: right;
+            color: rgb(235, 232, 225);
+            margin-top: 5px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 2px;
+            width: 150px;
+        }
+        .box3{
+            background-color: rgb(255, 38, 0);
+        }
+        p{
+            width: 250px;
+            height: 30px;
+            background-color: orangered;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px white;
+        }
+        .content3{
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <h2>教 学 内 容</h2>
+        <div class="content1">
+            <ul>
+                <li>
+                   <div class="right">
+                        <div class="span-right">开喉法</div>
+                        <div class="span-left">发声</div>
+                   </div> 
+                </li>
+                <li>
+                    <div class="right">
+                         <div class="span-right">叹气法</div>
+                         <div class="span-left">气息</div>
+                    </div> 
+                 </li>
+                 <li>
+                    <div class="right">
+                         <div class="span-right">气声法</div>
+                         <div class="span-left">假声</div>
+                    </div> 
+                 </li>
+                 <li>
+                    <div class="right">
+                         <div class="span-right">啃食法</div>
+                         <div class="span-left">咬字</div>
+                    </div> 
+                 </li>
+                 <li>
+                     <div class="right">
+                          <div class="span-right">叹息法</div>
+                          <div class="span-left">混声</div>
+                     </div> 
+                  </li>
+                  <li>
+                     <div class="right">
+                          <div class="span-right">顶舌吸气法</div>
+                          <div class="span-left">高音</div>
+                     </div> 
+                  </li>
+            </ul>
+
+        </div>
+        <img src="hh.jpg" alt="" width="300px" height="200px" >
+    </div>
+
+    <div class="box2">
+        <h2>学 习 要 点</h2>
+        <div class="content3">
+            <p>01.解放喉咙，轻松唱歌</p>
+            <p>02.巧融共鸣，保持口咽腔空间</p>
+            <p>03.科学发声，针对性发声联系</p>
+            <p>04.技巧带入，学唱经典歌曲</p>
+            <p>05.互动教学，老师1对1在线答疑</p>
+        </div>
+        <img src="oo.jpg" alt=""width="100px" height="200px">
+    <div class="box3">
+        <a href=""><h1>立即抢课</h1></a>
+        <h2>特惠1元</h2>
+        <h4>（限18岁以上新学员）</h4>
+
+    </div>

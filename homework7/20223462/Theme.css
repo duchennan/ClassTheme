@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image:url(image/bgc.jpg);
+    background-attachment:fixed; 
+}
+
+/* 头部标题css */
+header {
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    background-color: red;
+    color: white;
+    box-shadow: 5px 5px 2px black;
+}
+
+header img {
+    position: absolute;
+    width: 40px;
+    height: 42.5px;
+    top: 0;
+}
+
+header #left {
+    left: 50px;
+}
+
+header #right {
+    right: 50px;
+}
+
+/* 人物介绍css */
+h3 {
+    width: 130px;
+    margin: auto;
+    height: 30px;
+    /* 让h3和头部标题有30px的间距 */
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: #7a7a7a;
+    color: white;
+    /* 让每个字母之间有3px的间距 */
+    letter-spacing: 3px;
+    border-radius: 15px;
+    /* skew让小标题有斜拉的效果 */
+    transform: skewX(-10deg);
+    text-shadow: 2px 2px 2px black;
+}
+
+h3:hover {
+    font-size: 20px;
+    transform: skewX(-10deg);
+    box-shadow: 5px 5px 5px red;
+}
+
+div.fig {
+    display: inline-block;
+    position: relative;
+    /* 将放大的图片隐藏 */
+    overflow: hidden;
+}
+
+div.figs img {
+    width: 178px;
+    height: 200px;
+}
+
+div.figs {
+    width: 800px;
+    margin: auto;
+}
+
+span.name {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    height: 30px;
+    line-height: 30px;
+    background-color: red;
+    color: white;
+    top: 76px;
+    left: 37.5px;
+    border-radius: 20px;
+}
+
+div.fig img {
+    /* 是图片的放大有一个渐进的效果 */
+    transition: all .9s;
+}
+
+div.fig img:hover {
+    transform: scale(1.5);
+    background-color: black;
+    opacity: .5;
+}
+
+div.fig:hover span.name {
+    display: block;
+    /* 让每个字母之间有3px的间距 */
+    letter-spacing: 3px;
+    /* skew让字体有斜拉的效果 */
+    transform: skewX(5deg);
+}
+
+#logo {
+    text-align: center;
+}
+
+video {
+    margin-top: 20px;
+    width: 80%;
+    background-color: #7a7a7a;
+}
+
+
+/* 游戏模式CSS */
+#games {
+    margin-top: 115px;
+}
+
+#games h3 {
+    transform: skewY(-5deg);
+}
+
+#games div.game {
+    margin: 30px;
+    /* 让图片和文字整体在页面中进行居中 */
+    text-align: center;
+}
+
+/* 因为图片的和文字的前后顺序不同，用结构伪类选择器单独设置样式 */
+#games div.game:nth-child(even) img {
+    border: 2px solid red;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 10px red solid;
+}
+
+#games div.game:nth-child(odd) img {
+    border: 2px solid red;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 10px red solid;
+}
+
+#games div.game:nth-child(even) span.information {
+    border: 2px solid red;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -4.8px;
+}
+
+#games div.game:nth-child(odd) span.information {
+    border: 2px solid red;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: -4.8px;
+}
+
+div.game span.information {
+    /* span是行内元素，设置成行内块元素使其拥有宽高 */
+    display: inline-block;
+    width: 300px;
+    height: 367px;
+    /* 相对定位，为下方文字在span里的位置调整做铺垫 */
+    position: relative;
+    background-color: #202020;
+}
+
+h4 {
+    /* 将h4设置成行内块元素，使其和图片在同一行呈现 */
+    display: inline-block;
+    color:white;
+    /* 绝对定位设置位置，下面p同理 */
+    position: absolute;
+}
+
+/* 给每个小标题进行id命名，做位置上的细节调整 */
+#title-first {
+    top: 126px;
+    left: 80px;
+}
+
+span.information p {
+    position: absolute;
+    padding-left: 10px;
+    top: 170px;
+    color: white;
+}
+
+#title-second {
+    top: 124px;
+    left: 76px;
+}
+
+#title-third {
+    top: 122px;
+    left: 104px;
+}
+
+#title-fourth {
+    top: 120px;
+    left: 105px;
+}
+
+/* 底部CSS */
+footer {
+    height: 50px;
+    background-color: black;
+    text-align: center;
+}
+
+ul {
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+    padding: 5px;
+}
+
+a:hover {
+    border-bottom: 2px solid red;
+}
+

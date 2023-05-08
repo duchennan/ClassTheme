@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    body{
+      background-color: rgb(202, 109, 109);
+    }
+    #all{
+      width: 1680px;
+    }
+img{
+      width: 1300px;
+    }
+  #title{
+    font-size:50px;
+    font-family:幼圆;
+    background-color:rgb(250,250,210);
+    color:rgb(139,69,19);
+    border-radius:30px;
+    box-shadow:0 30px 50px #505050;
+    text-align:center;
+    border: solid 2px burlywood;
+    width:500px;
+    height: 80px;
+    line-height: 50px;
+    margin:20px;
+    }
+    #comtent-{
+      background-color: rgb(202, 109, 109);
+      height:1500px;
+      width: 1600px;
+    }
+    .con{
+      background-color:rgb(250,250,210);
+      width:750px;
+    height: 100px;
+    box-shadow:0 30px 50px #505050;
+    border-radius:30px;
+    float: left;
+    margin: 30px;
+    }
+  .nr{
+    font-size:50px;
+    font-family:幼圆;
+    color:rgb(139,69,19);
+    text-align:left;
+    padding: 20px;
+    height: 100px;
+    float: left;
+    }
+  .nr_{
+    font-size:30px;
+    font-family:幼圆;
+    background-color:rgb(255,140,0);
+    color:rgb(255,250,240);
+    border-radius:30px;
+    box-shadow:0 10px 20px #505050;
+    text-align:center;
+    height: 62px;
+    width: 350px;
+    padding:20px;
+  float: right;  
+  }
+  #import{
+    background-color:rgb(255,239,213);
+    font-size:50px;
+    font-size:幼圆;
+    color:rgb(139,69,19);
+    border-radius:30px;
+    box-shadow:0 30px 50px #505050;
+    text-align:center;
+    width:400px;
+    }
+  .content{
+    font-size:35px;
+    font-size:幼圆;
+    background-color:rgb(244,164,96);
+    color:rgb(139,69,19);
+    border-radius:30px;
+    box-shadow:0 30px 50px #505050;
+    text-align:center;
+    width: 750px;
+    margin-top:50px;
+    margin:30px;
+    padding:20px;
+    }
+  #import img{
+    float:right;
+    
+    }
+    #imp{
+      background-color: beige;
+      padding: 50px;
+      margin-top: 630px;
+    }
+  #down_{
+    width:1690px;
+    background-color:rgb(248, 149, 28);
+    height: 80px;
+  }
+  #down{
+    font-size:30px;
+    font-family:黑体;
+    color:rgb(255,239,213);
+    float: left;
+    }
+  #in{
+    border-radius: 10px;
+    color:rgb(126, 90, 30);
+    background-color: rgb(237, 225, 176);
+    height:40px;
+    text-align: center;
+    border: solid 2px #505050;
+    padding: 5px;
+    margin-top: 10px;
+    float: right;
+    }
