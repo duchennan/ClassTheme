@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #70f3ff;
+}
+
+/* 头部css */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+header p {
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    color: black;
+}
+
+#name {
+    border-bottom: 2px solid black;
+}
+
+#sentence {
+    width: 85%;
+    border-bottom: 2px dotted white;
+}
+
+/* 导航栏CSS */
+section nav {
+    text-align: center;
+    margin-top: 30px;
+}
+
+section nav ul {
+    width: 25%;
+    margin: auto;
+}
+
+section nav ul li {
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+}
+
+section nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+section nav ul li a:hover {
+    color: red;
+}
+
+iframe {
+    width: 80%;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* 底部CSS */
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+footer p {
+    padding: 20px;
+    color: white;
+}
+
+footer nav {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+}
+
+footer nav a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: white;
+}
