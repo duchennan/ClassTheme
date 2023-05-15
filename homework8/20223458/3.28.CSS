@@ -1,0 +1,20 @@
+* {
+	margin:0 ;
+	padding:0 ;
+}
+body {
+	background-color: rgb(150,100,100) ;
+}
+div {
+	text-align:center ;
+}
+h1 {
+	text-align:center ;
+	font-size:75px ;
+	color:white ;
+	background-color : black ;
+}
+img{
+	width:100px ;
+	heiget:100px ;
+}
