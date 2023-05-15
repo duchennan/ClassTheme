@@ -1,0 +1,44 @@
+      * {
+        padding: 0;
+        margin: 0; 
+      }
+      table{
+      	border:1px solid coral;
+      	width: 1000px;
+      	height: 300px;
+      	margin-top: 100px;
+      	}
+      	table a{
+      		text-decoration: none;
+      		color: black;
+      	}
+      	table a:hover{
+      		color: cyan;
+      	}
+      	body{
+      		background-color: antiquewhite;
+      	 	}
+      	 .nav{
+      	width: 1200px;
+      	text-align: center;
+      }
+      .nav a{
+      	color: black;
+	    text-decoration: none;
+		background-color: darkorange;
+      }
+      .nav a:hover{
+      	color: #00FFFF;
+      }
+       li{
+	float: left;
+	list-style-type: none;
+	width: 20%;
+	background-color: darkorange;
+	line-height: 40px;
+    }
+    p{
+    	text-align: center;
+    	color: chocolate;
+    }
+
