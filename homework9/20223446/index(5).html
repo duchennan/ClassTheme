@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒模型应用</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url("https://img0.baidu.com/it/u=1838040407,1274103844&fm=253&fmt=auto&app=120&f=JPEG?w=1422&h=800");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: cover;
+            background-color: #bfc5b0;
+        }
+        #box1{
+            border: 3px solid;
+            padding: 20px;
+            width: 300px;
+            height: 80px;
+            overflow-y: scroll;
+        }
+        li{
+            border-bottom: 1px dashed #ccc;
+            line-height: 2;
+            border-left: 3px solid #008c8c;
+            padding-left: 10px;
+            margin: 1em 0;
+            width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 50px;
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        溢出处理
+    </h1>
+    <div id="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus quidem magnam. Officia, atque sequi sit ullam expedita cupiditate nulla perspiciatis non ratione consequatur dolorem minus architecto eligendi odit vel.
+    </div>
+    <h1>
+        空白处理
+    </h1>
+    <ul>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Possimus blanditiis quae accusantium rem.</li>
+        <li>Suscipit similique sapiente maxime veniam.</li>
+        <li>Ex animi expedita totam impedit.</li>
+        <li>Repellat, quidem. Architecto, a assumenda.</li>
+        <li>Nihil exercitationem repudiandae ea qui?</li>
+        <li>Suscipit dolore voluptate ex aliquid?</li>
+        <li>Architecto perferendis earum neque aliquam.</li>
+        <li>Distinctio vel sed voluptatum eum?</li>
+        <li>Itaque cumque sapiente vitae. Soluta.</li>
+    </ul>
+    
+</body>
+</html>

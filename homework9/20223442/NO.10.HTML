@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>web</title>
+<style>
+.header{
+	padding:30px;
+	color:white;
+	text-align:center;
+	background:url("https://img0.baidu.com/it/u=4230967372,1737275965&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500")
+	}
+ ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	}
+ li{
+    float: left;
+	}
+
+ li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	}
+li a:hover:not(.active) {
+    background-color: #111;
+	}
+
+.active {
+    background-color: green;
+	color: white;
+	}
+	.card{
+	color:skyblue;
+	text-align:center;
+	font-family:楷体;
+	text-shadow:5px 5px 8px;
+	}
+	.a{
+	font-family:楷体;
+	font-size:20px;
+	color:green;
+	}
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover, .dropbtn {
+    background-color: #111;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: green;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropbtn{
+background-color:green;
+}
+</style>
+</head>
+<body>
+<div id="" class="header">
+	<h1>我的web网页基础总结</h1>
+</div>
+<ul>
+  <div class="dropdown">
+    <a href="#" class="dropbtn">关于html</a>
+    <div class="dropdown-content">
+      <a href="https://www.runoob.com/css/css-tutorial.html">css</a>
+      <a href="https://www.runoob.com/html/html-tutorial.html">html</a>
+      <a href="https://www.runoob.com/js/js-tutorial.html">javascript</a>
+    </div>
+  </div>
+</ul>
+<ul>
+  <li><a href="#">主页</a></li>
+  <li><a href="#news">什么是HTML</a></li>
+  <li><a href="#contact">什么是网页</a></li>
+  <li style="float:right"><a class="active" href="#about">2023年5月14日</a></li>
+</ul>
+<div id="" class="card">
+	<h2>什么是HTML</h2>
+	<img src="https://img-blog.csdnimg.cn/img_convert/0f4f89cfd30f2f890e4137c4cfcbe376.png" width="50%" height="" border="0" alt="">
+	</div>
+	<p class="a">HTML指的是超文本标记语言（Hyper Text Markup Language)，它是用来描述网页的一种语言。
+
+HTML不是一种编程语言，而是一种标记语言（markup language）。
+
+标记语言是一套标记标签（markup tag).
+
+所谓超文本，有2层含义：
+
+2.1、他可以加入图片、声音、动画、多媒体等内容（超越了文本限制）
+
+2.2、它还可以从一个文件跳转到另一个文件，与世界各地主机的文件链接（超级链接文本）</p>
+<div id="" class="card">
+	<h2>什么是网页</h2>
+	<img src="https://www.33ru.cn/uploads/allimg/200611/15211WW1_0.jpg" width="50%" height="" border="0" alt="">
+	</div>
+	<p class="a">网站是指在因特网上根据一定规律，使用HTML等制作用于展示特定内容的网页集合
+
+网页是网站中的一“页”，通常是HTML格式的文件，他要通过浏览器来阅读。
+
+网页是构成网站的基本元素，它通常由图片、链接、文字、声音、视频等元素构成。通常我们看到的网页，常见以.htm或.html后缀结尾的文件，因此将其俗称为HTML文件</p>
+
+</body>
+</html>
