@@ -1,0 +1,41 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+header{
+    background-color: aquamarine;
+    height: 7em;
+    box-shadow:10px 10px 15px rgb(120, 33, 160) ;
+    margin-right: 10px;
+}
+ul{
+    float: right;
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-right: 1em;
+    height: auto;
+    border: 2px solid rgb(228, 182, 95);
+
+
+}    
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(6, 57, 102);
+}
+a:hover{
+    color: rgb(116, 35, 134);
+}
+img{
+    border-radius: 100%;
+    height: 5em;
+    margin: 1em;
+}
+.a1{
+    position: relative;
+    top: -4em;
+    left: 7em;
+    font-weight: 700;
+}

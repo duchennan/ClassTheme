@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website home page</title>
+    <style>
+        h1{
+            font-size: 40px;
+            font-weight: normal;
+            background-color: rgb(122, 122, 163);
+        }
+        h1.c1{
+            font-size: 50px;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration:underline; /*加下划线*/
+        }
+        p{
+            font-family: "Microsoft YaHei";
+            font-size: 30px;
+        }
+        p.c1{
+            text-align: left;
+            font-size: 30px;
+        }
+        body {
+            
+            background-image: url(https://img0.baidu.com/it/u=2888037874,1173586368&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500);/* 加载背景图 */
+           
+            background-position: center center; /* 背景图垂直、水平均居中 */
+            
+            background-repeat: no-repeat;/* 背景图不平铺 */
+           
+            background-attachment: fixed; /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+            
+            background-size: cover;/* 让背景图基于容器大小伸缩 */
+            
+            background-color: #464646;/* 设置背景颜色，背景图加载过程中会显示背景色 */
+        }
+		table,th,td{
+		    border: 1px solid black;
+		}
+    </style>
+</head>
+<body>
+    <h1>
+        absolute path and relative path
+    </h1>
+    <p>
+        example:
+        <br>
+        你的C盘有个文件夹叫ABC，文件夹下有两个文件file1和file2<br>
+        如果让文件file1说出文件file2的位置(也就是路径),那么它有两种表示方法:<br>
+        第一种：C:\ABC\file2 这就是绝对路径,指明file2文件在C盘ABC文件下,从最大的目录C盘开始表示出来.<br>
+        第二种：file2 这就是相对路径,因为file1文件和file2文件都在C:\ABC下,所以它们的路径前面"C:\ABC"都是一样,就不用表示出来了.<br>
+        在这里，有的朋友可能会问，如果file1和file2不在同一个文件夹下，相对路径该怎么表示呢。比如：<br>
+        file1的位置为:C:\ABC\path1\file1；<br>
+        file2的位置为C:\ABC\path2\file2;<br>
+        这时候让file1说出file2的位置则为：../path2/file2；两个点（..）表示回退一层。解释下就是，file1在path1文件夹下，先点点，回退到ABC文件夹下，然后加上path2/file2，也就是../path2/file2，这就是相对路径了。<br>
+    </p>
+	<ol>
+		<a href="https://blog.csdn.net/weixin_45437521/article/details/109037537?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167981955016800182752015%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=167981955016800182752015&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-109037537-null-null.142^v76^insert_down2,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=%E5%9F%9F%E5%90%8D%E5%92%8C%E5%9C%B0%E5%9D%80&spm=1018.2226.3001.4187"><li>Internet Domain name and address</li></a>
+		<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/Heading_Elements"><li>h1 mdn</li></a>
+        <a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/a"><li>a mdn</li></a>
+		<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/abbr"><li>abbr mdn</li></a>
+		<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/address"><li>address mdn</li></a>
+	</ol>
+	<table>
+       <tr> 
+			<th>标签</th> 
+			<th>使用方法</th>  
+	   </tr> 
+	   <tr> 
+			<td>area</td>
+			<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/area">area</a></td>
+	   </tr>
+       <tr>
+            <td>article</td>
+			<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/article">article</a></td>
+	   </tr>
+	   <tr>
+			<td>aside</td>
+			<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/aside">aside</a></td>
+	   </tr>
+    </table>
+
+
+</body>
+</html>

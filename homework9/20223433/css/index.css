@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ededed;
+    font-family: "楷体";
+    font-size: 16px;
+    color: #a5a5a5;
+}
+
+/* 标题 */
+.title {
+    width: 980px;
+    height: 86px;
+    margin:0 auto 7px;
+    line-height: 86px;
+    text-align: center;
+    font-family: "微软雅黑";
+    color: #a5a5a5;
+}
+
+.title h1 {
+    
+    font-weight: 400;
+    font-size: 30px;
+}
+.title h1 span {
+    font-style: normal;
+    font-size: 14px;
+}
+
+/* 商品分类 */
+.fenlei {
+    width: 980px;
+    margin:0 auto;
+}
+.fenlei h2 {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #a5a5a5;
+    height: 42px;
+    line-height: 42px;
+}
+.fenlei p {
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* 热卖模块 */
+.hot {
+    width: 602px;
+    margin:0 auto;
+}
+.hot p {
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+/* 页脚 */
+.footer {
+    width: 602px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: hold;
+}
+.boss {
+    width: 602px;
+    margin:0 auto;
+}
+.boss img {
+    float: left;
+}
+.boss h3 {
+    float: left;
+    margin-left: 20px;
+}
+.boss p {
+    float: left;
+    margin-left: 20px;
+}
