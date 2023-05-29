@@ -1,0 +1,105 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    line-height: 1.5;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    
+}
+
+body{
+    background: #fcf2e8;
+    padding-left: 30rem;
+}
+header{
+    position: fixed;
+    top:0; 
+    left:0; 
+    bottom:0;
+    background:#222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    flex-flow: column;
+    padding:8rem 2rem;
+    width:30rem;
+    text-align: center;
+}
+
+header .navbar a{
+    display: block;
+    font-size: 2rem;
+    color:#fff;
+    margin:2rem 0;
+}
+
+header .navbar a:hover{
+    letter-spacing: .2rem;
+    color:pink;
+}
+section{
+    padding:1rem 5%;
+    min-height: 100vh;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.home .image{
+    flex:1 1 40rem;
+}
+
+.home .image img{
+    width:100%;
+}
+
+.home .content{
+    flex:1 1 40rem;
+}
+
+.home .content .hi{
+    font-size: 2rem;
+    color:pink;
+}
+
+.home .content h3{
+    font-size: 4.5rem;
+    color:#111;
+   
+}
+
+.home .content .text{
+    font-size: 1.7rem;
+    color:#666;
+    padding:.5rem 0;
+}
+.home .content h3 span{
+    color:pink;
+
+}.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding:.8rem 3rem;
+    background:pink;
+    color:#fff;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background:#111;
+    letter-spacing: .2rem;
+}

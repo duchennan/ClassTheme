@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: lightblue;
+        }
+        .header{
+            text-align: center;
+            margin-top: 0;
+        }
+        .header .nav{
+            height: 60px;
+            background: #47464a;
+            text-align: center;
+            line-height: 60px;
+        }
+
+        .header .nav a{
+            margin: 0 38px;
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        .header .nav a:hover{
+            color: #fff;
+        }
+
+        .header .nav a.select{
+            color: #ef4238;
+        }
+        .header .head-picture{
+            width: 160px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 40px;
+            /* text-align: center; */
+        }
+        .container .hyperlink{
+            text-align: center;
+            margin-top: 30px;
+        }
+        .container .hyperlink a{
+            text-decoration: none;
+            font-size: 2em;
+        }
+        .container .c-iframe{
+            text-align: center;
+        } 
+        .container .c-iframe iframe{
+            width: 90%;
+            height: 600px;
+            margin: 0 auto;
+        }
+        .footer{
+            width: 100%;
+            height: 300px;
+            background-color: black;
+        }
+        .footer .friend-link,
+        .footer .writer{
+            text-align: center;
+            /* margin-top: 5px; */
+        }
+        .footer .friend-link a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 30px;
+        }
+        .footer .writer span{
+            color: #fff;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav class="nav">
+            <a href="https://www.qidian.com/" class="select">起点小说</a>
+            <a href="https://www.bilibili.com/">哔哩哔哩</a>
+            <a href="https://www.baidu.com/">百度搜索</a>
+        </nav>
+
+        <img  class="head-picture" src="..\20223446\image\Desert Eagle Semi-automatic pistol.png" alt="">
+    </div>
+
+    <div class="container">
+        <div class="hyperlink">
+            <a href="https://www.dangdang.com/" target="myframe">当当网</a>
+            <a href="https://www.taobao.com/" target="myframe">淘宝</a>
+            <a href="https://www.tmall.com/" target="myframe">天猫</a>
+        </div>
+
+        <br>
+
+        <div class="c-iframe">
+            <iframe name="myframe" src="https://www.dangdang.com/" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="hyperlink">
+            <a href="index.html" target="myframe-one">第一次作业</a>
+            <a href="index(2).html" target="myframe-one">第二次作业</a>
+            <a href="index(3).html" target="myframe-one">第三次作业</a>
+            <a href="index(4).html" target="myframe-one">第四次作业</a>
+            <a href="index(5).html" target="myframe-one">第五次作业</a>
+            <a href="index(6).html" target="myframe-one">第六次作业</a>
+            <a href="index(7).html" target="myframe-one">第七次作业</a>
+            <a href="index(8).html" target="myframe-one">第八次作业</a>
+        </div>
+
+        <br>
+
+        <div class="c-iframe">
+            <iframe name="myframe-one" src="index.html" frameborder="0"></iframe>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="friend-link">
+            <br>
+            <em>
+                <a class="yuewen" href="//www.yuewen.com" target="_blank">阅文集团</a>
+                <cite>旗下网站：</cite>
+            </em>
+
+            <a href="//www.qidian.com/">起点中文网</a>
+            <a href="//www.qdmm.com/" target="_blank">起点女生网</a>
+            <a href="https://kunlun.readnovel.com/" target="_blank">昆仑中文网</a>
+            <a href="https://jiutian.readnovel.com/" target="_blank">九天中文网</a> 
+            <a href="http://chuangshi.qq.com" target="_blank">创世中文网</a> 
+            <a href="//www.yuewen.com/app.html#appqd" target="_blank">起点读书</a> 
+        </div>
+
+        <div class="writer">
+            <span>作者：袁宇翔  2023-05-29</span>
+        </div>
+    </div>
+</body>
+</html>

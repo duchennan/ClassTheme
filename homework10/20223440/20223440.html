@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20223440</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+          
+        }
+        .daohanglan{
+            margin-top: -100px;
+            margin-left: 120px;
+        }
+        .kuang{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(6, 7, 7, 0.5); 
+            margin-top: -100px;
+        }
+        a{
+                text-decoration: none;
+                font-weight: 800;
+                font-size: large;
+                display: inline-block;
+                height: 70px;
+                width: 250px;
+                color: white;
+                background-color: rgb(6, 7, 7);
+                line-height: 70px;
+                text-align: center;
+                margin:10px 0px ;
+               
+            }
+           ul{
+            
+                list-style-type: none;
+                position: fixed;
+             
+            }
+ 
+            #list{
+                display: block;
+                margin: 0px;
+                padding: 0px;
+                width: auto;
+                height: 100%;
+                
+ 
+            }
+ 
+           #list >li{
+                float: left;
+            }
+ 
+            #list>li>ul{
+                display: none;
+                position: absolute;
+                float: none;
+                
+            }
+ 
+            #list>li:hover ul{
+                display: block;
+            }
+ 
+            a:hover {
+                border-radius: 50%;   
+                 background-color: #000000;
+                 display: block;
+            }
+            .toxiang{
+                 margin-left: 10px;
+                 /* margin-top: 20px; */
+                 display: inline-block;
+                 overflow: hidden;
+                 border-radius: 50%;   
+
+                    }
+            img{
+                 height: 100px;
+            
+            }
+            body{
+                background-color: aqua;
+            }
+    </style>
+</head>
+<body>
+    <div class="toxiang">
+        <img src="./毛婷立的头像.jpg" alt="">
+    </div>
+    <div class="kuang"></div>
+    <div class="daohanglan">
+    <ul id="list">
+        <li>
+            <a href="#">我的主页</a>
+            <ul id="u1">
+                <li><a href="#">个人介绍</a></li>
+                <li><a href="#">kkkkkk</a></li>
+                <li><a href="#">kkkkkk</a></li>
+                <li><a href="#">kkkkk</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">我的爱好</a>
+            <ul id="u2">
+                <li><a href="#">喜欢的食物</a></li>
+                <li><a href="#">兴趣</a></li>
+                <li><a href="#">喜欢的音乐</a></li>
+                <li><a href="#">喜欢的书籍</a></li>
+                <li><a href="#">放松的方法</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">去过的地方</a>
+            <ul id="u3">
+                <li><a href="#">我的家乡</a></li>
+                <li><a href="#">去过的景点</a></li>
+                <li><a href="#">关注的焦点</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">xxxxx</a>
+            <ul id="u4">
+                <li><a href="#">xxxxx</a></li>
+                <li><a href="#">xxxxx</a></li>
+                <li><a href="#">xxxxx</a></li>
+                <li><a href="#">xxxxx</a></li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+</body>
+</html>
