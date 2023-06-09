@@ -1,0 +1,97 @@
+
+body {
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	line-height: 22px;
+}
+div,p,input,ul,,li,h1,h2,h3 {
+	height: auto;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	list-style: none;
+}
+a {
+	color: #131313;
+	text-decoration: none;
+}
+.web{
+	width:1024px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#nav{
+	height: 45px;
+	width: 100%;
+	background: #313131;
+}
+#nav ul{
+	padding: 0px;
+}
+#nav ul li{
+	float: left;
+	margin: 0px 43px;
+}
+#nav ul li a{
+	line-height: 45px;
+	font-size: 16px;
+	color: #ffffff;
+}
+.top{
+	height: 522px;
+}
+.main{
+	height: auto;
+	overflow: hidden;
+}
+.title{
+	width: 200px;
+	height: 50px;
+	border-bottom: #e9421a 3px solid;
+	line-height: 50px;
+	margin: 0 auto;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.ibox1{
+	height: 335px;
+}
+.ibox1 ul{
+	padding: 0px;
+}
+.ibox1 ul li{
+	float: left;
+	width: 242px;
+	margin: 0px 7px;
+}
+.ibox1 ul li h1{
+	height: 45px;
+	line-height: 45px;
+	font-weight: normal;
+	text-align: center;
+	font-size: 14px;
+}
+.ibox2{
+	height: 270px;
+}
+.ibox2 img{
+	float: left;
+	margin-right: 20px;
+}
+.ibox2 p{
+	line-height: 30px;
+	text-indent: 2em;
+	font-size: 14px;
+}
+.foot{
+	height: 50px;
+	line-height: 50px;
+	background: #cccccc;
+	text-align: center;
+	font-size: 14px;
+}

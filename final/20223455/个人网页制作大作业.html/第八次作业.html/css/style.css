@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+#bigbox {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #757575;
+    border-bottom: 0px;
+}
+
+#banner {
+    width: 1000px;
+    font-size: 0px;
+}
+
+#banner img {
+    width: 1000px;
+}
+
+#nav {
+    width: 1000px;
+    border-bottom: 2px solid #333;
+}
+
+#nav a {
+    display: inline-block;
+    width: 80px;
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-right: 1px solid #333;
+    margin-right: -4px;
+}
+
+#jueshi_main {
+    position: relative;
+}
+
+#nav a:hover {
+    background-color: #DEE5EF;
+
+    color: #3366D3;
+}
+
+#main_maint {
+    height: 600px;
+}
+
+#main_left {
+    position: absolute;
+    left: 0px;
+    padding-top: 30px;
+    width: 170px;
+    padding-right: 10px;
+}
+
+#main_left img {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#main_left li {
+    margin-top: 10px;
+    display: flex;
+    line-height: 30px;
+    background-color: #F7F7F7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#main_left h2 {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#main_right h2 {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#main_right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 280px;
+    padding-top: 30px;
+}
+
+#main_right ul {
+    width: 280px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#main_right ul li {
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    color: #2D487E;
+}
+
+#main_right ul li:nth-child(even) {
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #EAF1F7;
+}
+
+#main_maint {
+    width: 500px;
+}
+
+#main_maint {
+    width: 520px;
+    margin-left: 180px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    height: 750px;
+}
+
+#main_maint img {
+    width: 520px;
+}
+
+#main_maint p {
+    text-indent: 32px;
+    line-height: 30px;
+}
+
+footer {
+    width: 1000px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px solid #333;
+    font-size: 12px;
+}
+
+
+

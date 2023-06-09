@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <title>坤鸡神舞</title>
+   
+<style type="text/css">
+h1{
+    height: 200px;
+color:red;
+font-size:50px;
+background:url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg3.doubanio.com%2Fview%2Fgroup_topic%2Fraw%2Fpublic%2Fp106878681.jpg&refer=http%3A%2F%2Fimg3.doubanio.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1680157047&t=4e63e629388ed8e35a7df316d884c65d");}
+p.c1{background-color: aqua;text-align: center;
+font-size: 50px;}
+ol{background-color: rgb(0, 200, 255);
+font-size: 30px;}
+p.c2{background-color: rgb(0, 38, 255);text-align: center;
+font-size: 50px;}
+body{   font-size:70px;
+    background-color: rgb(160, 255, 120);
+ 
+
+}  
+img{width: 1200px;   height: 100px;  }
+
+
+</style>
+
+<h1 style="font-size:50px;text-align: center; padding-top: 75px ;">  </h1> <hr>
+</head>
+
+<body >
+ <p class="c1">  代码编辑器的基本功能 </p class="c1"> 
+                              <b><ol><li>
+                                <u>1.代码高亮(code highlighting)</u> 
+
+                                    代码文件都是文本文件，是不包含文字格式信息的。但是所有文字都是白底黑色的代码文件不利于阅读，看起来很累。代码高亮是代码编辑器的拓展，让关键词、变量名、函数名等不同的成分显示不同的颜色，帮助我们快速理解代码的结构。
+                                    
+                                    代码高亮的这些颜色不是代码本身的，而是编辑器显示的时候附加渲染的。通常你可以通过安装不同的主题(theme)来改变这种着色方式，大胆搜索一下“编辑器名称+主题”吧，你会发现很多漂亮的主题。
+                                    </li>
+                                    <li>
+                                    <u>2. 自动缩进(auto indent)</u> 
+                                    
+                                    代码要写的好看，最好同一个层次的代码能够对齐。我们将每一行代码前面的空格叫做缩进，代码编辑器能够在输入回车时，自动给下一行加上缩进，形成自动对齐的效果。很简单也很常用的功能，一般的代码编辑器都内置了，但是如果编辑器没有自动缩进，大概是哪里出了问题，自行搜索解决吧。
+                                    </li><li>
+                                    <u>3. 代码格式化(format)</u>
+                                    
+                                    使得混乱的代码按照规定的格式重新排布。vscode中，可以使用Shift+Alt+f快捷键触发代码格式化。当然也可以自定义格式化的风格，python常用autopep8，c++常用clang-format。
+                                    
+                                    给的两个链接都没啥卵用，直接搜索对应的插件就是了。
+                                   </li><li>
+                                    <u> 4. 代码折叠(fold)</u>
+                                    
+                                    代码折叠是指将某个代码块折叠起来，比如折叠一个函数，一个for循环等等。代码折叠将更多的代码放到一个屏幕内，忽略其中的某些细节，更容易理解文件的组织结构。
+                                    
+                                    </li><li>
+                                    <u>5. 静态检查(lint)</u>
+                                    静态检查主要是在编译或者运行前检查代码的错误。比如，c/c++代码漏了分号，python的空格和制表符混合等语法错误；找不到头文件，python某个包没装所以import错误等依赖错误；fortran的类型转换，c/c++的unsigned转signed等潜在的错误等。
+                                    
+                                    这些错误不应该在编译或者运行的时候才被发现，因为此时编译器或者解释器会给出很长的复杂的报错信息，很难阅读。如果在写代码的同时就能够发现，会节省很多时间。
+                                    </li><li>
+                                    <u>6. 代码提示或自动补全(hint | auto complete)</u> 
+                                    
+                                    代码编辑器最能够提高效率的功能就是代码提示了。对于长函数名和变量名，只打几个字符就自动给你提示完整，能够极大的加快编码速度，同时还能够防止自己一个字母一个字母打容易打错。
+                                    </li><li>
+                                    <u>7. 比较(diff)</u> 
+                                    比较两个文件，并使用高亮显示出两者的区别。
+                                    </li><li>
+                                    <u>8. 代码片段(snippets)</u>
+                                    自定义一些代码片段，并使用一些简单的字符串触发。
+                                    </li><li>
+                                    <u>9. 快捷键</u>
+                                    代码编辑器所提供的高效编辑快捷键等，对于提高编码速度也是非常有用的。比如快速删除一行，快速复制一行，快速对一块代码注释和解除注释等等。这些需要在实际工作中不断学习。
+                                    </li>
+
+                   </ol>                 
+                  <hr>
+                   <b>加粗</b>
+                 <strong>加粗</strong>
+                  <u>下划线</u>
+                  <ins>下划线</ins>
+                  <i>倾斜</i>
+                  <em>倾斜</em>
+                  <s>删除</s>
+                  <del>删除</del>
+               
+  
+<p class="c2"><i>编辑器的一个常用拓展——调试(debug)
+                                    调试也是代码编写的一环。调试能够实时监视代码的全部运行过程，看到代码每一步运行的结果，对于定位代码的错误非常有用。调试器(debugger)一般是一个独立的软件，通过与编辑器的通信来将调试结果实时显示在编辑器上。</i>    </p class="c2">
+    
+    
+ <img src="https://t7.baidu.com/it/u=839828294,1619278046&fm=193&f=GIF">    
+</body>
+</html>

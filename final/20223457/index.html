@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人主页</title>
+		<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: rgb(50,50,50);
+			color: white;
+			padding: 25px;
+			text-align: center;
+			font-size: 40px;
+			font-family: 幼圆;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			padding: 50px;
+		}
+		.card {
+			border-radius: 10px;
+			box-shadow: 7px 7px 5px 5px rgb(200,200,200) ,-0.5px -0.5px 7px rgb(100,100,100);
+			margin-bottom: 50px;
+			padding:10px;
+			width: 20%;
+			text-align: center;
+		}
+		
+		.card:hover{
+			background-color: rgb(230,210,170);
+		}
+		
+		a{
+			text-decoration: none;
+			font-size: 40px;
+			color: black;
+			font-family: 楷体;
+		}
+		a:hover {
+			font-weight: 600;
+			text-shadow: 4px 5px 5px rgb(160,160,160);
+		}
+		
+		a:active{
+			color: red;
+		}
+		footer{
+			text-align: center;
+			background-color: rgb(200,200,200);
+			padding: 10px;
+		}
+		
+		#me{
+			position: fixed;
+			top: 60%;
+			left: 0;
+			width: 70px;
+			background-color: rgb(245,222,179);
+			border-radius: 0 50% 50% 0;
+		}
+		  
+		img{
+			border: 1px black solid;
+			border-radius: 50%;
+			height: 60px;
+			float: right;
+		}
+		  
+		#frame{
+			display: flex;
+			justify-content: center;
+		}
+		
+		iframe{
+			width: 60%;
+			height: 700px;
+		}
+		.fade-in {
+		  opacity: 0;
+		  animation: fade 1s forwards;
+		}
+		
+		@keyframes fade {
+		  0% {
+			opacity: 0;
+		  }
+		  100% {
+			opacity: 1;
+		  }
+		  
+		</style>
+	</head>
+	<body>
+		<div class="fade-in">
+			<header>
+				<h1>🎗️个人主页🎗️</h1>
+			</header>
+			<div class="container">
+				<div class="card">
+					<a href="./20223457(1).html" target="inlineFrame">作业1</a>
+				</div>
+				<div class="card">
+					<a href="./20223457(2).html" target="inlineFrame">作业2</a>
+				</div>
+				<div class="card">
+					<a href="./20223457(3).html" target="inlineFrame">作业3</a>
+				</div>
+				<div class="card">
+					<a href="./20223457(4).html" target="inlineFrame">作业4</a>
+				</div>
+				<div class="card">
+					<a href="./20223457(5).html" target="inlineFrame">作业5</a>
+				</div>
+				<div class="card">
+					<a href="./20223457(6).html" target="inlineFrame">作业6</a>
+				</div>
+				<div class="card">
+					<a href="./20223457(7).html" target="inlineFrame">作业7</a>
+				</div>
+				<div class="card">
+					<a href="./20223457(8).html" target="inlineFrame">作业8</a>
+				</div>
+				<div class="card">
+					<a href="./20223457(9).html" target="inlineFrame">作业9</a>
+				</div>
+				<div class="card">
+					<a href="./20223457(10).html" target="inlineFrame">作业10</a>
+				</div>
+				<div class="card">
+					<a href="./20223457(11).html" target="inlineFrame">作业11</a>
+				</div>
+				<div class="card">
+					<a href="./20223457(12).html" target="inlineFrame">作业12</a>
+				</div>
+			</div>
+			<div id="me">
+					<a href="./introduction.html"><img src="./myface.jpg"></a>
+			</div>
+			<div id="frame">
+				<iframe name="inlineFrame"></iframe>
+			</div>
+			<footer>©江西科技师范大学元宇宙产业学院22计科一班夏鑫<br>完成于2023-06-03<br>联系电话：19170155331 电子邮箱：aom-star@outlook.com</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: beige;
+}
+
+#biaoti {
+    text-align: center;
+    color: white;
+    background-color: pink;
+    font-size: 25px;
+    width: 100%;
+    font-family: 幼圆;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Bauhaus 93';
+    font-size: 45px;
+}
+
+a:hover {
+    text-shadow: 2px 2px pink;
+    border: 2px solid rgb(79, 91, 174);
+}
+
+a {
+    color: black;
+    background-color: lightcyan;
+    border: 2px solid rgb(169, 169, 231);
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    float: left;
+}

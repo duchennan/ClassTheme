@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>个人主页</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <link type="text/css" rel="styleSheet"  href="css\welcome.css" />
+ </head>
+ <body>
+  <div class="nav">
+   <ul class="navlist">
+    <li class="btli"><a href="#">导航项</a>
+     <ul class="droplist">
+      <li><a href="#">我是下拉</a></li>
+      <li><a href="#">我是下拉</a></li>
+      <li><a href="#">我是下拉</a></li>
+     </ul>
+    </li>
+    <li class="btli"><a href="#">导航项</a>
+     <ul class="droplist">
+      <li><a href="#">我是下拉</a></li>
+      <li><a href="#">我是下拉</a></li>
+      <li><a href="#">我是下拉</a></li>
+     </ul>
+    </li>
+	<li class="btli"><a href="#">导航项</a>
+     <ul class="droplist">
+      <li><a href="#">我是下拉</a></li>
+      <li><a href="#">我是下拉</a></li>
+      <li><a href="#">我是下拉</a></li>
+     </ul>
+    </li>
+   </ul>
+  </div>
+  <div id="box1" class="">
+    <img src="img\tx.jpg">
+    <h1>欢迎来到我的个人网页</h1>
+	<iframe src="img\t1.png"></iframe>
+  </div>
+  <footer>
+   <span class="">江西科技师范大学元宇宙产业学院</br>计算机科学与技术一班</br>20223452郝立伟</br>web个人主页</span>
+  </footer>
+</html>

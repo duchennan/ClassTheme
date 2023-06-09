@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+	1200px;
+}
+.top {
+    background-color: rgb(187, 109, 173);
+}
+
+.container {
+    width:1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 60px;
+    margin-bottom: 20px;
+    height: 100%;
+}
+.container ul {
+    display: flex;
+    justify-content: space-between;
+    width:500px;
+}
+
+.container ul li a {
+    color: rgb(180, 99, 165);
+    line-height: 42px;
+    color: #fff;
+}
+.container ul li a:hover{
+      	color: hotpink;
+      }
+.container h1 {
+	font-family: 宋体;
+    color: rgb(255, 255, 255);
+}
+
+.banner {
+    width: 1200px;
+    height: 500px;
+    background-color: rgb(180, 99, 165);
+    margin: auto;
+    margin-top: 30px;
+    padding: 50px 0;
+}
+
+.box {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(141, 62, 117);
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    height: 100%;
+    background: #fff;
+    width:150px;
+    position: relative;
+}
+
+.left p {
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    color: rgb(180, 99, 165);
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 25px;
+    text-align: right;
+}
+
+.news {
+    text-align: center;
+    color: rgb(180, 99, 165);
+    margin: 35px 0;
+}
+
+.page-1 {
+    float: right;
+    display: block;
+    width: 300px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+}
+
+.left-about {
+    width: 50%;
+    height: 600px;
+    background-color: rgb(180, 99, 165);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+iframe{
+	width: 90%;
+	height: 500px;
+}
+
+
+.right-about {
+    width: 50%;
+
+    background-color: rgb(247, 241, 245);
+    padding: 180px 30px 0 70px;
+    color: rgb(180, 99, 165);
+    position: relative;
+}
+ #boxright{
+ 	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+.right-about img{
+	width: 150px;
+	height: 200px;
+}
+.right-about h2 {
+    font-size: 40px;
+}
+
+.right-about P {
+    font-size: 30px;
+}
+	.down{
+		margin: auto;
+	height: 100px;
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: center;
+}

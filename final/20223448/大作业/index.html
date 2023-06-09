@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>朱武成的个人简介</title>
+    <style>
+        *{margin:0;
+         padding:0;
+         border:0;}
+        body{
+            position:relative;
+             background-color: rgb(0, 0, 0);
+             background-image:url("../img/黑洞.png");
+             background-repeat: no-repeat;
+             background-position: center top;
+             background-size:300px;
+        }
+        #picture1{text-align: center;           
+         }
+        #picture1 img{height:120px;
+                  width:100px;
+                  border-radius: 50px;
+                  
+                }
+        #picture1 img:hover{height:125px;
+                           width:105px;
+                           }            
+        #leftmune{width:40%;
+                 height:70px;
+                 position:fixed;
+                 top:1%;
+                 border-radius:35px 0 0 35px;
+        background-image:linear-gradient(to right,rgba(255,29,194,1), rgba(255,29,194,0));
+        border:5px solid rgba(255, 255, 255, 0.5);
+        border-right:none;}
+       #rightmune{width:40%;
+                 height:70px;        
+        border:5px solid rgba(255, 255, 255, 0.5);
+        border-left:none;
+        position:fixed;
+        top:1%;
+        right:0;
+        background-image:linear-gradient(to left,rgb(149, 1, 255,1), rgba(149,1,255,0));
+        border-radius:0 35px 35px 0;}
+       /* #picture2{width:40%;
+                 height:70px;
+                 position:fixed;
+                 top:1%;} */
+       #lm1{border-radius:30px 0 0 30px;}         
+       #lm1,#lm2{height:100%;
+            width:50%;
+            /* background-color:rgb(243, 77, 135); */
+            border:0 solid rgb(255, 255, 255);
+            color:white;
+        } 
+       #lm2{position:absolute;
+            top:0;
+            right:0;}
+       #lm1:hover{
+                  /* color: */
+                 background-color:rgb(255, 255, 255);} 
+       #lm2:hover{
+                  /* color: */
+                 background-color:rgb(255, 255, 255);}
+       #rm1{height:100%;
+            width:50%;
+           } 
+       #rm2{height:100%;
+            width:50%;
+           position:absolute;
+           top:0;
+           right:0;}
+       #rm2{border-radius:0 35px 35px 0;}           
+       #rm1:hover{font-size:20px;
+                  /* color: */
+                 background-color:rgb(255, 255, 255);}
+       #rm2:hover{font-size:20px;
+                  /* color: */
+                 background-color:rgb(255, 255, 255);}
+       div a{text-decoration: none;
+             color:rgb(0, 255, 255);
+             font-size:30px;
+        }
+        a:hover{color:black;
+               font-size:40px;
+               font-weight: 900;}
+       #lm1,#lm2,#rm1,#rm2{line-height: 70px;
+                           text-align: center;}
+       #ck1{
+            position:absolute;
+            top:150px;
+            left:
+            border:3px solid white;
+           }
+       #picture2{position:absolute;
+                 bottom:10px;}
+       #picture2 img{width:800px;
+    animation:run 2s linear infinite;}
+       @keyframes run{0%{opacity: 0;}
+                  50%{opacity:1;}
+                  100%{opacity:0;}}
+      #xm{border:3px solid white;
+          width:15%;
+          height:40px;
+         position:absolute;
+         top:100px; 
+        left:330px;
+        color:white;
+        line-height: 40px;
+        text-align: center;
+        font-size:30px;
+       animation:run1 3s linear infinite;}    
+       @keyframes run1{0%{font-size:30px;
+    color:rgb(255, 0, 0);}
+       14%{border-color:rgb(255, 128, 0);
+        color:rgb(255, 128, 0);
+          font-size:32px;}
+        28%{border-color:rgb(217, 255, 0);;
+            color:rgb(217, 255, 0);
+          font-size:34px;}
+        42%{border-color:rgb(17, 255, 0);
+            color:rgb(17, 255, 0);
+          font-size:36px;}
+        56%{border-color:rgb(0, 255, 187);
+            color:rgb(0, 255, 187);
+          font-size:38px;}
+        70%{border-color:rgb(0, 76, 255);
+            color:rgb(0, 76, 255);
+          font-size:38px;}
+        84%{border-color:rgb(212, 0, 255);
+            color:rgb(212, 0, 255);
+          font-size:36px;}
+        98%{border-color: rgb(255, 0, 153);
+            color: rgb(255, 0, 153);
+           font-size:32px;}
+        100%{border-color:rgb(255, 2, 2);
+            color:rgb(255, 2, 2);
+           font-size:30px;}}
+        #k{height:430px;
+          }
+           #f1,#f2{text-align: center;
+               color:aliceblue;
+              }
+                                                                                                                    
+    </style>
+</head>
+<body>
+    <div id="picture1">
+        <a href="../首页.html" terget="chuangko1"><img src="../img/myface.jpg" alt="出错了" ></a>
+    </div>
+    <div id="leftmune">
+        <div id="lm1">
+            <a href="自我介绍.html" target="chuangko1">自我介绍</a>
+        </div>
+        <div id="lm2">
+            <a href="web作业.html" target="chuangko1">作业记录</a>
+        </div>
+    </div>
+    <div id="rightmune">
+        <div id="rm1">
+            <a href="兴趣爱好.html" target="chuangko1">兴趣爱好</a>
+        </div>
+        <div id="rm2">
+            <a href="诗词百态.html" target="chuangko1">诗词百态</a>
+        </div>
+    </div>
+     <div id="picture2">
+        <img src="../img/光线.png" alt=""> 
+    </div>
+    <div id="xm">朱武成</div>
+    <div id="ck1">
+        <iframe src="" frameborder="1" height="400px" width="800px" name="chuangko1" id="if1" >
+           
+        </iframe>
+    </div>
+    <div id="k"></div>
+    <footer>
+       <div id="f1">江西科技师范大学元宇宙产业学院</div>
+       <div id="f2">计算机科学与技术一班朱武成完成于2023-05-29</div>
+    </footer>
+    
+    
+</body>
+</html>

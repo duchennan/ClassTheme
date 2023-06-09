@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+	*{
+	 margin : 0 ;
+     padding : 0 ;
+	}
+	 body{
+	   background-color : rgb(100,144,170) ;
+	  }
+	#box1{
+	 width : 100% ;
+	 text-align : center ;
+	}
+	h1{
+	 color : red ;
+	 font-size : 35px ;
+	 font-weight : bold ;
+	}
+	/*在第一个盒子里面修饰照片，将照片宽度设为10%，用border-radius代码将方型照片设为弧形*/
+	#box1 img{
+	 width : 10% ;
+	 border-radius : 100px ;
+	 right : 200px ; 
+	 border : 10px solid white ;
+	}
+	/*调文字大小，用text-shadow修饰文字使之有阴影效果*/
+    #box1 p{
+	 font-size : 30px ;
+	 text-shadow : 2px 2px white ;
+	 line-height : 100px ;
+	}
+     /*用text-decoration去掉超链接的下划线*/
+	 a{
+	 font-size : 25px ;
+	 text-decoration : none ;
+	 line-height : 50px ;
+	 /* margin-left : 10px ; */
+	}
+	/*用hover属性使鼠标在超链接上能够变换颜色，用这个border-radius使的鼠标放上去有个圆角弧度
+	 用box-shadow使它会出现一些阴影进行修饰*/
+	a:hover{
+	 background-color : red ;
+	 border-radius: 100px;
+	 box-shadow: 4px 4px 15px black ;
+	}
+	/*用浮动使第三个盒子能够跟第二个盒子并在一行*/
+	div{
+/* 	 white-space : nowrap ;使文字不会随屏幕的缩小而换行
+	  */	 float : left ;
+	}
+	#box2{
+	 width : 50% ;
+	 height : 360px ;
+	}
+	#box2 h2{
+	 text-align : center ;
+	 background-color : yellow ;
+	}
+	#box2 p{
+	 font-size : 25px ;
+	 font-family : 楷体 ;
+	 text-align : center ;
+	 background-color : red ;
+	}
+	iframe{
+	  width : 100% ;
+	  height : 200px ;
+	  border : 2px solid red ;
+	  background-color : red ;
+	}
+    #box3{
+	 width : 50% ;
+	 height : 360px ;
+	 position : relative ;
+	 background-color : cyan ;
+	}
+	#box3 p{
+	 width : 70% ;
+	}
+	 /*设定这个小盒子的宽度占box3盒子的25%，用一个绝对定位使照片和文字移到box3盒子的最右边*/
+	 div #face p{
+	  width : 30% ;
+	  height: 200px;
+	  color : red ; 
+	  background-image : url("face大作业.jpg") ;
+	  text-align : center ;
+      background-size : cover ;
+      position : absolute ;
+	  top : 0 ;
+	  right : 0 ;
+	  	 }
+       footer{
+	   font-size : 20px ;
+	   color : yellow ;
+	   text-align : center ;
+	  }
+  </style>
+  <title>Document</title>
+ </head>
+ <body>
+   <div id="box1">
+	 <h1>欢迎来到江西帅哥的网页<h1>
+	 <img src="face大作业1.jpg" >
+	 <p>岁月静好</p>
+	 <nav>
+	   <a href="index1.html">首页</a>
+       <a href="https://www.jxstnu.edu.cn/">学校</a>
+	   <a target="summary" href="work.html">作业汇总</a>
+	   <a href="https://www.maoyan.com/">影院</a>
+	   <a href="https://www.csdn.net/">学习资料</a>
+	 </nav>
+   </div>
+   <div id="box2">
+     <h2>赠汪伦 唐·李白</h2>
+     <p>李白乘舟将欲行,</p>
+	 <p>忽闻岸上踏歌声.</p>
+	 <p>桃花潭水深千尺,</p>
+     <p>不及汪伦送我情.</p>
+	 <iframe src="https://www.taobao.com/" name=summary></iframe>
+   </div>
+   <div id="box3">
+     <p>个人简介</p>
+	 <p>我的家乡：江西高安</p>
+	 <p>姓名：龚雪斌</p>
+	 <p>初中：祥符中学</p>
+     <p>高中：高安中学</p>
+	 <p>大学：江西科技师范大学</p>
+	 <p>学院：元宇宙产业学院</p>
+     <p>专业：计算机科学与技术</p>
+	 <p>爱好：编代码，看关于代码的英语书，跑步.</p>
+	 <div id="face">
+	   <p>22计科一班龚雪斌</p>
+	 </div>
+   </div>
+   <footer>
+	<p>学校：江西科技师范大学元宇宙产业学院</p>
+	<p>姓名：22计算机科学与技术1班龚雪斌</p>
+	<p>时间：完成于2023年6月8日</p>
+   </footer>
+ </body>
+</html>

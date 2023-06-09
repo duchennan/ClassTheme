@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+
+}
+
+#biaoti h1 {
+    color: rgb(143, 133, 137);
+    font-size: 80px;
+    top: 0;
+    font-family: 'Arial black';
+    text-shadow: 3px 3px rgb(185, 214, 224);
+    text-align: center;
+}
+
+#biaoti img{
+    float:left;
+}
+
+li {
+    line-height: 40px;
+    float: left;
+    width: 16.667%;
+    text-align: center;
+    font-size: 13px;
+    background-color: white;
+    list-style-type: none;
+
+}
+
+#nct {
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+}
+
+#nav a {
+    color: rgb(12, 9, 9);
+    text-decoration: none;
+}
+
+#cyjj {
+    width: 100%;
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 0px;
+}
+
+#cyjj img {
+    border-radius: 100%;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 5px solid white;
+}
+#cyjj img:hover{
+    border: 5px solid grey;
+}
+
+#cyjj p {
+    width: 100%;
+    text-indent: 50px;
+}
+
+tr {
+    height: 400px;
+}
+
+td {
+    width: 22%;
+}
+
+#down {
+    text-align: center;
+    background-color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    height: 45px;
+    line-height: 25px;
+}

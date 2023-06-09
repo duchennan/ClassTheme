@@ -1,0 +1,54 @@
+      * {
+        padding: 0;
+        margin: 0; 
+        background: pink;
+      }
+         .nav{
+      	width: 100%;
+      }
+      .nav a{
+      	color: black;
+	    text-decoration: none;
+	    background-color:palevioletred;
+      }
+      a:hover{
+      	color: #FA8072;
+      }
+              h1{
+      	text-align: center;
+      	color: salmon;
+      	font-family: 隶书;
+      	}
+      
+  div {
+        text-align: center;
+      }        li{
+	float: left;
+	list-style-type: none;
+	width: 20%;
+	background-color:palevioletred;
+	line-height: 40px;
+	font-family: 宋体;
+    }
+          #dg img{
+      	width:100%;
+      	height: 300px;
+      }
+      table{
+      	border:1px solid cyan;
+      	width: 100%
+      	height: 100px;
+      	background-color:whitesmoke;
+      	color: saddlebrown;
+      	}
+      	table img{
+      		width: 300px;
+      		height: 200px;
+      	}
+      	td{
+      		text-align: center;
+      	}
+      	     h1{
+      	text-align: center;
+      	color: salmon;
+      	}

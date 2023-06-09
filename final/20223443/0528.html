@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>0528</title>
+    <style>
+        nav{
+            float: left;
+            width: 25%;
+            list-style: none;
+        }
+        ul{
+            margin-top: 5%;
+            height: 50px;
+            list-style: none;
+        }
+        li.button{
+            float: left;
+            position: relative;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+        li.button :hover{
+            background-color: rgb(194, 129, 129);
+        }
+        li.button li:hover {
+            background-color: #cf3a46;
+        }
+        li.button:hover li{
+            height: 50px;
+            opacity: 1;
+            transform: translateY(0px);
+        }
+        li.button ul li {
+            height: 0;
+            transition: 0.3s;
+            opacity: 0;
+            transform: translateY(-50px);
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <li class="button left">
+                <span>米哈游</span>
+                   <ul>
+                    <li>原神</li>
+                    <li>绝区零</li>
+                    <li>星穹铁道</li>
+                   </ul>
+        </li>
+    </nav>
+    <nav>
+        <li class="button left">
+                <span>米哈游</span>
+                   <ul>
+                    <li>原神</li>
+                    <li>绝区零</li>
+                    <li>星穹铁道</li>
+                   </ul>
+        </li>
+    </nav>
+
+</body>
+</html>

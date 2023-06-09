@@ -1,0 +1,422 @@
+@charset "utf-8";
+/* CSS Document */
+/* 初始化样式 */
+ul,li,h1,h2,h3,p{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* 设置背景色 */
+html {
+  background: #b3b6ce;
+}
+/* 设置body主体部分 */
+body {
+  width: 1200px;
+  margin: 0px auto;
+  line-height: 21px;
+}
+.menu2 ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(179,179,179);
+	overflow: hidden;
+	position:sticky;
+	top:0;
+}
+.menu2 li a{
+	display: block;
+	color: #FFF;
+	padding: 20px 16px;
+	text-decoration: none;
+}
+.menu2 li a:hover{
+	background-color: rgb(51,51,51);
+}
+/* 清除浮动 */
+.clear {
+  clear: both;
+}
+.menu li {
+  list-style: none;
+}
+
+.head {
+  width: 100%;
+  background: #2a3143;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+.head h1 {
+  color: #fff;
+  font-weight: normal;
+}
+/* 设置banner部分 */
+.banner {
+  position: relative;
+}
+.banner img {
+  display: block;
+}
+/* 设置菜单部分 */
+.menu {
+  background: #2a3143;
+  clear: both;
+  height: 60px;
+  width: 100%;
+}
+.menu li a {
+  color: #fff;
+  display: block;
+}
+.menu li {
+  display: inline-block;
+  line-height: 60px;
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-size: 18px;
+}
+.menu li:hover a {
+  background: #663399;
+}
+/* 设置主要内容部分 */
+.content {
+  background: #6c799d;
+  color: #fff;
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+}
+.end {
+  clear: both;
+  background: #2a3143;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+.cs {
+  margin: 30px 40px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.cs p {
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.5;
+  text-indent: 2em;
+  margin-bottom: 20px;
+}
+.zt1{
+	width:100%;
+	height:auto;
+	background-color: rgb(51,51,51);}
+.bar {
+  margin: 20px 40px;
+  text-align: center;
+  line-height: 15px;
+  padding: 5px;
+}
+.cs1{
+    line-height:30px;
+	letter-spacing:5px;
+}
+.cs1 img{
+	border:1px dotted black;
+	margin:0px 0px 15px 20px;
+}
+#pic:hover{
+	transform:rotateZ(180deg);}
+.csa{
+	margin-top:30px;
+	padding:5% 0;
+	height:600px;
+	width:100%
+}
+.csb{
+	margin-top:30px;
+	padding:5% 0;
+	height:400px;
+	width:100%
+}
+.csc{
+	margin-top:30px;
+	padding:5% 0;
+	height:400px;
+	width:100%
+}
+.csd{
+	margin-top:30px;
+	padding:5% 0;
+	height:400px;
+	width:100%
+}
+#pic{
+	border-radius:20px;
+	border: 10px solid #ddd;
+}
+#pic1{
+	border-radius:20px;
+	border: 10px solid #ddd;
+}
+.container {
+  position: relative;
+  width: 50%;
+  float:left;
+  clear:right;
+}
+
+.image {
+  display: block;
+  width: 96%;
+  height:300px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.zt {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #09F;
+	overflow: hidden;
+	position: sticky;
+	top: 0;
+	
+}
+.zt li {
+    float: left;
+}
+.zt li a{
+	display: block;
+	color: #FFF;
+	padding: 20px 16px;
+	text-decoration: none;
+	width:350px;
+}
+.zt li a:hover{
+	background-color: #0F0;
+}
+.header_nav:hover,.header_navl{
+	text-shadow:0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+	color:#fff;
+}
+.header_nav{
+	position:relative;
+	float:left;
+	width:auto;
+	height:66px;
+	margin:0 30px !important;
+	line-height:66px;
+	font:-size:17px;
+	font-weight:normal;
+	font-stretch:normal;
+	letter-spacing:0px;
+	color:#ccc;
+	text-align:center;
+	cursor:pointer;
+	webkit user select:none;
+	use-select:none;
+	text-decoration:none;
+}
+.c{
+	text-align:center;
+}
+.bd{
+	font-family:"黑体";
+}
+.gw{
+	background:url(../images1/beijing.png);
+	margin:0;
+	padding:0;
+	height:1000px;
+	width:auto;
+	}
+.gw1{
+	margin:0;
+	padding:0;
+	height:1000px;
+	}
+.gw2{
+	padding-top:60px;
+	float:left;}
+.gw3{
+	padding-top:150px;
+	float:right;}
+.gw3 img:hover{
+	background-color:#FF0;}
+.gw4{
+	position: absolute;
+	bottom:-200px;
+}
+.gw5{
+	position:absolute;
+	right:30%;
+	bottom:-200px;;
+}
+.gw1 .gw4 h1 {
+	font-family: 今昔豪龙;
+	color: #600;
+}
+.gw5 img:hover{
+	background-color:#FF0;}
+.gw6{
+	text-align:center;
+}
+.gw7{
+	border: double;
+	border-color:#F93;
+	border-width:10px;
+	}
+.gw8{
+	padding:300px;
+	margin:auto;
+	}
+.youxiang{
+	padding:50px;
+	height:200px;
+	background-color:rgb(0,0,0);}
+.youxiang h1{
+	color:rgb(255,255,255);
+	text-align:center;}
+.youxiang form{
+	margin-top:50px;
+	text-align:center;
+	height:100px;}
+.youxiang form input{
+	height:50px;
+	}
+#footer{
+	margin:0;
+	padding:0;
+	height:300px;
+	background-color: #000;}
+.footer1 img{
+	width:200px;
+	height:200px;}
+.footer1{
+	float:left;
+	padding:50px;
+	}
+.footer2{
+	float:right;
+	padding:20px;}
+.font{
+	color:#FFF;
+	}
+.footer3{
+	float: left;
+}
+.footer-last{
+	font-family:"黑体";
+	color:#FFF;}
+.vert{
+	color:#FFF;
+	}
+
+.bd #footer .footer2 .footer-link .font {
+	font-family: 黑体;
+}
+.logo{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+.logo1{
+  opacity:0.8;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: auto;
+}
+.logo1 a{
+  float:
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo1 a:hover:not(.active) {
+  background-color: #111;
+}
+.logo2{
+	padding-left:100px;
+	float:left;}
+.logo3{
+	text-align:center;
+	height:100px;
+	float:left;}
+.logo4{
+	text-align:center;
+	padding:30px;
+	height:40px;
+	width:200px;
+	float:left;}
+.logo5{
+	text-align:center;
+	padding:30px;
+	height:40px;
+	width:200px;
+	float: left;}
+.bd .logo .logo1 .logo5 button span {
+	font-family: 黑体;
+	font-size:18px;
+}
+.hd{
+	width:auto;
+	height:300px;}
+.dh{
+  width: auto;
+  height: 300px;
+  background-image: url(../images1/bh.jpg);
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-image: url(../images1/bh.jpg);}
+  25%  { background-image:url(../images1/gw4.png);}
+  50%  { background-image: url(../images1/dwsj.png);}
+  100% { background-image:url(../images1/kl.jpg);}
+}

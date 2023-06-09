@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #70f3ff;
+}
+
+header 
+{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: yellow;
+    background-color: red;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul.shell {
+    margin-top: 1%;
+    height: 65px;
+    background-color: skyblue;
+}
+
+nav li.button {
+    float: left;
+    position: relative;
+    width: calc(100% / 5);
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+nav li.button:hover {
+    width: calc(100% / 6);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 50px;
+    background-color: yellow;
+}
+
+nav li.button li:hover {
+    color: yellow;
+    background-color: #9d2932;
+}
+
+nav li.button ul li:hover a {
+    color: yellow;
+}
+
+nav li.button ul li {
+    position: relative;
+    z-index: 2;
+    height: 0;
+    transition: 0.3s;
+    opacity: 0;
+    transform: translateY(-65px);
+    background-color: red;
+}
+
+nav li.button:hover li {
+    height: 65px;
+    opacity: 1;
+    transform: translateY(0px);
+    border-radius: 50px;
+    margin-top: 5px;
+    box-shadow: -5px 3px 5px black;
+}
+
+article {
+    height: 520px;
+}
+
+article .left,article .right {
+    float: left;
+    width: 50%;
+    height: 560px;
+}
+
+article div.left {
+    background-color: white;
+}
+
+article div.left .poem {
+    text-align: center;
+    color: yellow;
+    height: 50px;
+    background-color: red;
+}
+
+article div.left .poem p {
+    padding: 5px auto;
+}
+
+article div.left iframe {
+    width: 100%;
+    height: 500px;
+}
+
+article div.right {
+    background-color: blue;
+    position: relative;
+}
+
+article div.right ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+article div.right ul li {
+    list-style: none;
+    color: yellow;
+    padding-top: 10px;
+}
+
+article div.right ul li h1 {
+    background-color: red;
+    width: 20%;
+    margin: auto;
+}
+
+article div.right span {
+    display: block;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-image: url(image/myface.png);
+}
+
+footer {
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: black;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 3px -3px 3px white;
+}
+
+footer p {
+    padding: 10px;
+    color: white;
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web project training</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: rgb(141, 223, 253);
+            text-align: center;
+            height: 100px;
+        }
+        header h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 50px;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+            line-height: 100px;
+        }
+        .header{
+            text-align: center;
+            margin-top: 0;
+        }
+        .header .nav{
+            height: 60px;
+            background: #144ddb98;
+            text-align: center;
+            line-height: 60px;
+        }
+        .header .nav a{
+            margin: 0 38px;
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .header .nav a:hover{
+            color: black;
+            
+        }
+        .header .nav a.select{
+            color: #c98826;
+        }
+        .left{
+            float: left;
+            width: 50%;
+            height: 490px;
+            background-color: lightblue;
+        }
+        .left .container h2,
+        .left .container p{
+            text-align: center;
+        }
+        .left .container .hyperlink{
+            text-align: center;
+            margin-top: 30px;
+        }
+        .left .container .hyperlink a{
+            text-decoration: none;
+            font-size: 2em;
+            color: black;
+        }
+        .left .container .c-iframe{
+            text-align: center;
+        } 
+        .left .container .c-iframe iframe{
+            width: 90%;
+            height: 300px;
+            margin: 0 auto;
+        }
+        .right{
+            position: relative;
+            float: left;
+            width: 50%;
+            background-color: rgb(57, 83, 92);
+            height: 490px;
+        }
+        .right .img{
+            position: absolute;
+            top: 5px;
+            right: 0;
+        }
+        .right .name{
+            position: absolute;
+            top: 230px;
+            right: 5px;
+            color: #fff;
+        }
+        .right .warning{
+            text-align: left;
+        }
+        .right .warning .information{
+            text-align: center;
+            font-size: 25px;
+        }
+        .right .hobby span{
+            font-size: 30px;
+            color: #fff;
+        }
+        .right .hobby ul{
+            list-style: none;
+            text-align: center;
+            font-size: 20px;
+        }
+        .source a{
+            font-size: 50px;
+            text-decoration: none;
+            color: #fff;
+        }
+        footer{
+            background-color: black;
+        }
+        footer .writer{
+            text-align: center;
+            /* margin-top: 5px; */
+        }
+        footer .writer p{
+            color: #fff;
+            font-size: 30px;
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>缘于的个人空间</h1>
+    </header>
+
+    <div class="header">
+        <nav class="nav">
+            <a href="homework(2).html" target="myframe-one">第一次作业</a>
+            <a href="homework(3).html" target="myframe-one" class="select">第二次作业</a>
+            <a href="homework(4).html" target="myframe-one">第三次作业</a>
+            <a href="homework(5).html" target="myframe-one">第四次作业</a>
+            <a href="homework(6).html" target="myframe-one">第五次作业</a>
+            <a href="homework(7).html" target="myframe-one">第六次作业</a>
+            <a href="homework(8).html" target="myframe-one">第七次作业</a>
+            <a href="homework(9).html" target="myframe-one">第八次作业</a>
+            <!-- <a href="personal information.html">个人信息</a> -->
+        </nav>
+    </div>
+
+    <div class="left">
+        <div class="container">
+            <!-- <div class="hyperlink">
+                <a href="homework(2).html" target="myframe-one">第一次作业</a>
+                <a href="homework(3).html" target="myframe-one">第二次作业</a>
+                <a href="homework(4).html" target="myframe-one">第三次作业</a>
+                <a href="homework(5).html" target="myframe-one">第四次作业</a>
+                <br>
+                <a href="homework(6).html" target="myframe-one">第五次作业</a>
+                <a href="homework(7).html" target="myframe-one">第六次作业</a>
+                <a href="homework(8).html" target="myframe-one">第七次作业</a>
+                <a href="homework(9).html" target="myframe-one">第八次作业</a>
+            </div> -->
+            <h2>入都</h2>
+            <p>[清]李鸿章</p>
+            <hr>
+            <p>丈夫只手把吴钩，</p>
+            <p>意气高于百尺楼；</p>
+            <p>一万年来谁著史？</p>
+            <p>八千里外觅封侯。</p>
+            <br>
+
+            <div class="c-iframe">
+                <iframe name="myframe-one" src="homework(2).html" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="img">
+            <img src="image/myface.png" alt="">
+        </div>
+
+        <div class="name">
+            22计科一班袁宇翔
+        </div>
+
+        <div class="warning">
+            <h2>业精于勤；荒于嬉；行成于思；毁于随。</h2>
+            <hr>
+            <p class="information">姓名：袁宇翔</p>
+            <p class="information">身份：大学生</p>
+            <p class="information">学校所在地：江西南昌</p>
+        </div>
+        
+        <div class="hobby">
+            <span>爱看的书</span>
+                <ul>
+                    <li>人类简史</li>
+                    <li>一读就上瘾的中国史</li>
+                    <li>中国人史纲</li>
+                    <li>颓废与沉默</li>
+                </ul>
+            <span>爱好</span>
+                <ul>
+                    <li>球类运动</li>
+                    <li>读小说</li>
+                    <li>看漫画书</li>
+                    <li>看电影</li>
+                </ul>
+        </div>
+        <hr>
+
+        <div class="source">
+            <a href="https://www.book123.info/">资源链接：无名图书</a>
+        </div>
+    </div> 
+
+    <footer>
+        <div class="writer">
+            <p>江西科技师范大学元宇宙产业学院</p>
+            <p>计算机科学与技术专业一班袁宇翔完成于2023-06-06</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>

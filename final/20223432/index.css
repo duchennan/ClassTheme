@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: font;
+    src: url(font1.TTF);
+}
+@font-face {
+    font-family: font1;
+    src: url(font2.TTF);
+}
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 100px;
+    background-color: orange;
+}
+header div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header div p{
+    margin-left: 30px;
+    font-size: 50px;
+    font-family: font;
+}
+header div img{
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 40px;
+}
+.p1{
+    animation: yushenshen 7s linear 0.5s infinite;
+}
+@keyframes yushenshen{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    75%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+li{
+    list-style-type: none;
+    text-align: center;
+    font-family: font1;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    z-index: 2;
+    top: 0;
+}
+.navbar .nav{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.navbar .nav ul{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.navbar .nav ul > li{
+    width: 100%;
+    height: 100%;
+}
+.navbar .nav ul > li > a{
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    line-height: 70px;
+}
+.navbar .nav ul > li ol{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    /* 让盒子沿y轴缩放到0 就是隐藏 */
+    transform: scaleY(0);
+    /* 我们需要将盒子从上面滑动下来 设置一下缩放的中心点即可 设置到最上面的中间位置 */
+    transform-origin: 50% 0;
+    /* 设置过渡 */
+    transition: all 0.6s;
+}
+.navbar .nav ul > li ol li{
+    height: 70px;
+    border-bottom: 1px solid white;
+    line-height: 70px;
+}
+.navbar .nav ul>li ol li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.navbar .nav ul > li ol li:hover{
+    background-color: #777474;
+}
+.navbar .nav ul > li:hover ol{
+    transform: scaleY(1);
+    border-bottom: 1px solid #777474;
+}
+.navbar .nav ul .underline{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 240px;
+    height: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: rgb(70, 67, 67);
+    transition: all 0.5s;
+    pointer-events: none;
+}
+.navbar .nav ul .underline::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 9px);
+    width: 18px;
+    height: 10px;
+    background-color: inherit;
+    clip-path: polygon(0 100%,50% 0,100% 100%);
+}
+.navbar .nav ul > li:nth-child(2):hover ~ .underline{
+    left: 240px;
+    background-color: rgb(79, 120, 106);
+}
+.navbar .nav ul > li:nth-child(3):hover ~ .underline{
+    left: 480px;
+    background-color: rgb(107, 111, 185);
+}
+.navbar .nav ul > li:nth-child(4):hover ~ .underline{
+    left: 720px;
+    background-color: rgb(168, 139, 103);
+}
+.navbar .nav ul > li:nth-child(5):hover ~ .underline{
+    left: 960px;
+    background-color: rgb(185, 123, 150);
+}
+section{
+    display: flex;
+    flex: 1;
+}
+section .rightbox .left{
+    width: 15%;
+    height: 100%;
+    float: left;
+    background-color: #161616;
+}
+section .rightbox .left .face{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .rightbox .left .content{
+    width: 100%;
+    height: 70%;
+}
+section .rightbox .left .content p{
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+section .rightbox .left .content p:hover{
+    color: #777474;
+}
+section .rightbox .right{
+    width: 85%;
+    height: 100%;
+    float: left;
+}
+section .rightbox .left .face img{
+    border-radius: 30px;
+    height: 100px;
+    width: 80px;
+}
+.leftbox,.rightbox{
+    flex: 1;
+}
+.leftbox{
+    background-color: rgb(255, 255, 255);
+}
+footer{
+    height: 100px;
+    background-color: orange;
+}
+footer>div{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+}

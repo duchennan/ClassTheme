@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>HUKE'S HOMEPAGE</title>
+		<link rel="stylesheet" type="text/css" href="css/about-me.css"/>
+		<!-- 对个人网页进行统一装饰 -->
+		<link rel="stylesheet" href="css/public.css">
+	</head>
+	<body>
+		<h1>土豆被气成炸薯条的网页</h1>
+		<header>
+			<div id="photo"><img src="image/about.jpg"></div>
+			<p id="name">胡可</p>
+			<div id="line"></div>
+			<p id="aphorism">对设计保持好奇心、目的和激情，始终如一</p>
+			<!-- 导航栏 -->
+			<nav>
+				<a href="index.html"id="active">主页</a>
+				<a href="rizhi.html">作业展示</a>
+				<a href="photo-album.html">日常图片</a>
+				<a href="11.html"target="fm1">作业一</a>
+				<a href="9.html"target="fm1">作业二</a>
+				<a href="10.html"target="fm1" >作业三</a>
+				<a href="3.html"target="fm1" >作业三</a>
+				<!-- 通过target给超链接命名，以便将其加载到iframe界面 -->
+			</nav>
+		</header>
+        <hr>
+        <!-- content start -->
+		<div id="content">
+			<!-- 页面左边布局 -->
+		<div id="boxleft">
+			<div id="poem">
+			<h1>诗歌鉴赏</h1>
+			<p>每个人都有属于自己的一片森林，
+				也许我们从来不曾去过，
+				但它一直在那里，总会在那里。
+				迷失的人迷失了，
+				相逢的人会再相逢。
+				——《挪威的森林》
+				</p>
+			<p>如果你掉进了黑暗里，你能做的，不过是静心等待，直到你的双眼适应黑暗。
+				——《挪威的森林》</p>
+				<p>我本可以容忍黑暗，如果我不曾见过太阳，然而阳光已使我的荒凉成为更新的荒凉——艾米莉狄金森</p>
+			</div>
+			<!-- 对iframe的name和id进行与超链接target名称相同，从而将两者联系起来	 -->
+			<iframe name="fm1" id="fm1" frameborder="1"></iframe>
+		</div>
+		<!-- 页面右边布局：个人简介 -->
+        <div id="boxright">
+            <div id="about-left">
+                <div id="pic"><img src="image/my.jpg" alt=""></div>
+            </div>
+            <div id="about-right">
+                <p>姓名：胡可</p>
+                <p>年龄：18岁</p>
+				<p>性别：女</p>
+				<p>籍贯：江西</p>
+                <p>就读学校：江西科技师范大学</p>
+                <p>E-mail：3111406778@qq.com</p>
+                <p>爱好：旅游，音乐，阅读，语言学习</p>
+                <p>格言：即使我将来不一定能成为最最优秀的，但我现在必须是最最努力的</p>
+            </div>
+			
+        </div>
+		</div>
+		
+        <!-- content end -->
+		<footer>
+			<!-- 底部为联系方式和部分学生信息 -->
+			<div id="footer-container">
+				<p id="welcome">WELCOME</p>
+				<nav id="nav-2">
+					<p>江西科技师范大学</p>
+					<p>计算机科学与技术一班胡可 2023.6.10</p>
+				</nav>
+			</div>
+			<div id="contact-me">
+				<p>QQ：3111406778</p>
+				<p>TEL：19979260975</p>
+				<p>E-mail：xxx@.com</p>
+				<p> Address：江西省九江市</p>
+			</div>
+		</footer>
+	</body>
+</html>

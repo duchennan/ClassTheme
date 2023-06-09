@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+/*-- login --*/
+
+.login-right h3{
+    color: #00959F;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+.login-right input[type="text"] ,.login-right input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-weight: normal;
+    background: none;
+    border: 1px solid #E6E4E4;
+    color: #D2D1D1;
+    outline: none;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.login-right h4{
+	color:#00959F;
+	font-size:12px;
+	margin:20px 0;
+}
+.login-right h4 a{
+	color:#00959F;
+	text-decoration:none;
+}
+.login-right h4 a:hover{
+	color:#A9A8A8;
+}
+.login-right input[type="submit"] {
+  background:#B7112A;
+  color: #fff;
+  font-size:1.2em;
+  border: none;
+  width: 100%;
+  outline: none;
+  -webkit-appearance:none;
+  padding:7px 15px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+	margin-top:20px;
+}
+.login-right input[type="submit"]:hover {
+	background:#00959F;
+}
+/*-- agileits --*/ 
+.login-grids p {
+    font-size: 12px;
+    margin-top: 25px;
+	color:#A9A8A8;
+}
+.login-grids p span{
+	color:#48cfc1;	
+}
+.modal-body {
+    padding: 2em;
+}
+.modal-header {
+    border-bottom: none;
+}
+/*-- //login --*/
+/*-- sign up --*/
+.single-bottom input[type="checkbox"] {
+  display: none;
+}
+.single-bottom input[type="checkbox"]+label {
+    position: relative;
+    padding-left: 31px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #A9A8A8;
+	font-weight:normal;
+}
+.single-bottom input[type="checkbox"]+label span:first-child {
+	width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 2px solid #00959F;
+    position: absolute;
+    left: 0;
+    top: -1px;
+}
+.single-bottom input[type="checkbox"]:checked+label span:first-child:before {
+  content: "";
+  background:url(../images/tick.png)no-repeat;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 10px;
+  width:16px;
+  height:16px;
+  }
+.modal-info {
+    width: 100%;
+/*-- w3layouts --*/
+}
+
+/*-- //Sign up --*/
+.zy{
+	margin-left:45%;
+	text-align:center;
+	width:10%;}
+.zy a{
+	color: rgb(255,255,255);
+	font-size:25px;
+	background-color:#B7112A;}
+.zy a:hover{
+	background-color:#00959F;}
+*{
+	font-family: "黑体";}
+p input{
+	width:100px;
+	height:50px;}
+.login-grids p{
+	text-align:center;}

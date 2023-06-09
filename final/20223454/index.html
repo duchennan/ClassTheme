@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>个人主页</title>
+  <style type="text/css">
+	body{
+	     background-color:cyan;
+	}
+	#header{
+	        background-color:deepskyblue;
+			height:2em;
+			line-height:2em;			
+	}
+	#h{ 
+	        float:left;
+			width:20%;  
+			text-align:center; 
+			list-style-type:none;
+	}
+	#h a{
+            text-decoration: none;
+	}
+	#circle{
+	     margin: auto;
+		 margin-top:100px;
+		 border-radius:50%;
+	     width:10em;
+		 height:10em;
+		 overflow: hidden;
+		 position: relative;
+	}
+	#circle img{
+	     display: block;
+         width: 100%;
+         height: 100%;
+	     background-size: cover;
+	}
+	#circle-overlay{
+	     position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: rgba(0, 0, 0, 0.4);
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         transition: opacity 0.25s;
+		 opacity:0;
+	}
+	
+	#circle-overlay:hover{
+	     opacity:1;
+	}
+	#introduce1{
+	     float:left;
+		 margin:3%;
+		 border-radius:2%;
+	     width:25%;
+		 height:550px;
+		 overflow: hidden;
+		 position: relative;
+	}
+	#introduce1 img{
+	     display: block;
+         width: 100%;
+         height: 100%;
+	     background-size: cover;
+	}
+	#introduce1 p{
+	     color:white;
+		 font-size:2em;
+	}
+	#introduce1-overlay{
+	     position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: rgba(0, 0, 0, 0.4);
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         transition: opacity 0.25s;
+		 opacity:0;
+	}
+	
+	#introduce1-overlay:hover{
+	     opacity:1;
+	}
+   	#introduce3{
+	     float:right;
+		 margin:3%;
+		 border-radius:2%;
+	     width:25%;
+		 height:550px;
+		 overflow: hidden;
+		 position: relative;
+	}
+	#introduce3 img{
+	     display: block;
+         width: 100%;
+         height: 100%;
+	     background-size: cover;
+	}
+	#introduce3 a{
+	     color:white;
+		 font-size:2em;
+	}
+	#introduce3-overlay{
+	     position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: rgba(0, 0, 0, 0.4);
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         transition: opacity 0.25s;
+		 opacity:0;
+	}	
+	#introduce3-overlay:hover{
+	     opacity:1;
+	}
+    #footer{
+	     position: absolute;
+         bottom: -100px;
+	     width:100%;
+	     background-color:black;
+		 color:white;
+		 text-align:center;
+	}
+	a{
+	     text-decoration: none;
+	}
+	a:link{
+	     color:red;
+	}
+	a:visited{
+	     color:yellow;
+	}
+	#introduce1-overlay p:hover{
+	     color:rgb(0,255,255);
+		 cursor:pointer;
+	}
+    #introduce3-overlay a:hover{
+	     color:red;
+		 font-weight:bold;
+	}
+	#circle-overlay p:hover{
+	     color:rgb(255,255,0);
+		 font-size:1.2em;
+	}
+  </style>
+ </head>
+ <body>
+   <div id="header" >
+	<ul>
+		<li id="h"><a href="#circle">头像</a></li>
+		<li id="h"><a href="#introduce1">简介</a></li>
+		<li id="h"><a href="#footer">footer</a></li>
+		<li id="h"><a href="https://duchennan.github.io/ClassTheme/homework10/20223452/index.html">看看人家1</a></li>
+		<li id="h"><a href="https://duchennan.github.io/ClassTheme/homework10/20223457/index.html">看看人家2</a></li>
+	</ul>
+   </div>
+	<div id="circle">
+	 <img src="image/mao1.jpg" >
+	 <div id="circle-overlay">
+		<a href="https://zh.moegirl.org.cn/%E8%89%BE%E9%9C%B2%E7%8C%AB" target="blank">neko</a>
+        <p>喵喵喵</p>
+	 </div>
+    </div> 
+   <div id="introduce1" >
+	  <img src="image/1.png" >
+      <div id="introduce1-overlay" >
+		 <p>这是我的猫</p>
+      </div>
+   </div>   
+   <div id="introduce3" >
+	  <img src="image/1.png" >
+      <div id="introduce3-overlay" >
+		 <a href="展示.html">作业展示</a>
+      </div>
+   </div>
+   <div id="footer" >
+	@yjyhaoye
+   </div>
+ </body>
+</html>

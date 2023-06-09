@@ -1,0 +1,144 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: Verdana;
+	color: #fff !important;
+}
+
+body {
+	font-family: "微软雅黑";
+	background-image: linear-gradient(to right bottom, #eb6a7f, #cd6384, #e398b7, #d595b3, #f7c5ef);
+}
+
+h1{
+	font-size: 45px;
+	font-family:黑体 ;
+	text-align: center;
+	text-shadow: 2px 2px 2px  rgb(163, 118, 134);
+	font-weight: bold;
+	margin-top: 20px;
+    color: aliceblue;
+}
+header {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	overflow: hidden;
+}
+
+header #photo{
+	width: 20%;
+	height: 20%;
+	margin: auto;
+	margin-top: 20px;
+	background-color: #fff;
+	border-radius: 50%;
+	padding: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+header #photo img{
+	width: 100%;
+	border-radius: 50%;
+}
+header #name {
+	text-align: center;
+	font-size: 24px;
+	line-height: 40px;
+}
+
+header #aphorism {
+	text-align: center;
+	font-size: 14px;
+	color: #777;
+	margin-top: 20px;
+}
+
+header #line {
+	height: 2px;
+	width: 30%;
+	background-color: #fff;
+	margin: auto;
+}
+
+header nav {
+	width: 50%;
+	height: 40px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin: 30px auto;
+}
+
+header nav a {
+	color: black;
+	line-height: 50px;
+	text-align: center;
+	display: block;
+	width: 10%;
+	line-height: 40px;
+	font-size: 17px;
+	font-weight: 500;
+
+}
+
+header nav #index {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+
+#active {
+	color: #fff;
+	border-bottom: 3px solid #fff;
+}
+
+footer {
+	height: 330px;
+	width: 100%;
+	background-color: black;
+	margin-top: 50px;
+}
+
+footer #footer-container {
+	height: 180px;
+	width: 100%;
+	margin: auto;
+	border-bottom: 1px solid gray;
+	padding: 30px 0 0 0;
+	box-sizing: border-box;
+}
+
+footer #footer-container #welcome {
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}
+
+footer #footer-container #nav-2 {
+	width: 50%;
+	height: 40px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+footer #footer-container #nav-2 a {
+	color: gray;
+}
+
+footer #contact-me p {
+	color: gray;
+}
+
+footer #contact-me {
+	margin: auto;
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: center;
+}

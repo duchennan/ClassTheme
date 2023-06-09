@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <style type="text/css">
+    body{
+	        margin:0;
+			padding:0;
+			border:0;
+	}
+	#header{
+	        background-color:deepskyblue;
+			height:2em;
+			line-height:2em;
+			
+	}
+	#h{ 
+	        float:left;
+			width:20%;  
+			text-align:center; 
+			list-style-type:none;
+	}
+	#h a{
+            text-decoration: none;
+	}
+	#pass{
+	        text-align:center; 
+	}
+	#gu{ 
+	        float:left; 
+			background-color:cyan;
+			width:3%;
+			height:500px;
+			border: none;
+            border-radius:10px;
+	}
+	#g{
+	        padding-top:5em;		
+	}   
+	span{
+	        cursor:pointer;
+	}
+	span:hover{
+	        color:blue;
+			font-size:1em;
+	} 
+	#part2-1{
+	        border:2px solid #ddd;
+	        float:right;
+			width:270px;
+			height:200px;
+			overflow: hidden;
+			margin:0px auto;
+			z-index:0;
+	}
+	#part2-2{
+	        width:1350px;
+			height:200px;
+            margin:0px auto;
+			animation:text 30s infinite  linear;
+            font-size:0px;
+	}
+	#part2-2 img{
+	        width:270px;
+            height:200px;
+            float:left;
+	}
+	@keyframes text {          /*0%-20%是播放下一个图片，0%-10%是图片暂停的时间*/
+    0%,10%{
+        transform: translateX(0px);
+     }
+    20%,30%{
+        transform: translateX(-270px);
+     }
+    40%,50%{
+        transform: translateX(-540px);
+     }
+    60%,70%{
+        transform: translateX(-810px);
+     }
+    80%,90%{
+        transform: translateX(-1080px);
+     }
+    100%,110%{
+        transform: translateX(0px);
+     }
+    }
+	
+	#part3{
+	        position:static;
+	        float:left;
+	        width:60%;
+	}
+	iframe{
+	        margin-left:5em;
+			margin-top:30px;
+	}
+	#back{	
+	        position:absolute;
+			border:2px solid black;
+			text-decoration: none;
+	}
+	#me1{
+	     float:right;
+	     width:11%;
+		 height:269px;
+		 border: 2px solid lightcoral;
+		 margin-bottom:1000px;
+	}
+	#medetail1{
+	     display:none;
+		 position: absolute;
+		 width: 3%;
+         height:1em;
+		 text-align:center;
+		 color:black;
+         border: 2px solid lightcoral;
+	}
+	#me1:hover #medetail1{
+	     display:block;
+	}
+	#part4{
+	        width:10%;
+            height:50px;
+	        position:fixed;
+			border:3px solid yellow;
+			background-color:red;
+			color:yellow;
+			bottom:10%;
+            right:0px;
+			line-height:50px;
+			text-align:center;
+	}
+    #footer{
+	        float:left; 
+	        width:100%;
+			height:1.5em;
+			background-color:black;
+			color:white;
+			text-align:center;
+	}
+   </style>
+  <title>个人主页</title>
+ </head>
+ <body>
+  <div id="header" >
+	<ul>
+		<li id="h">***</li>
+		<li id="h">***</li>
+		<li id="h">***</li>
+		<li id="h"><a href="index.html">个人主页</a></li>
+	</ul>
+  </div>
+  <div id="pass" >
+	<span>???????????喵喵喵????????????</span>
+  </div>
+  <div id="body" >
+    <div id="guide">
+		<ul id="gu">
+			<li id="g"><a href="https://duchennan.github.io/ClassTheme/" target="myiframe">班级黄页</a></li> 
+			<li id="g"><a href="index.html" target="myiframe">个人作业</a></li>		   
+			<li id="g"><a href="https://www.nintendo.com.hk/" target="myiframe">任天堂官网</a></li>
+			<li id="g"><a href="https://www.bilibili.com/" target="myiframe">bilibili</a></li>
+		</ul>
+    </div>
+	<div id="part2-1">
+	 <div id="part2-2">
+		<img src="image/haoye1.png"/>
+		<img src="image/haoye2.png"/>
+		<img src="image/haoye3.png"/>
+		<img src="image/haoye4.png"/>
+		<img src="image/haoye5.png"/>
+	 </div>		
+	</div>
+  </div>
+  <div id="part3">
+	<iframe src="image/mao.jpg"
+     name="myiframe"
+     width="100%"
+     height="400">
+    </iframe>
+	<a id="back" href="image/mao.jpg" target="myiframe">back</a>
+  </div> 
+  <div id="me1">
+	<img src="image/me.jpg" width=100% height=100%>
+	<div id="medetail1" >
+	  喵喵喵
+	</div>
+  </div>
+  <div id="part4" >
+	广告位招租
+  </div>
+  <div id="footer">
+    @yjy	
+  </div>
+ </body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        body {
+
+            background-color: #CCFFFF;
+        }
+
+
+
+        .touxiang {
+            position: relative;
+            width: 130px;
+            height: 130px;
+            margin: 0 auto;
+            border-radius: 50%;
+            background-image: url(image/头像.jpg);
+            background-size: 130px;
+        }
+
+        .name {
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        .daohang {
+
+            margin: 0 auto;
+
+        }
+
+
+        a {
+            text-decoration: none;
+        }
+
+
+        ul.start {
+            height: 70px;
+            background-color: #FFFFCC;
+        }
+
+        li.tou {
+            float: left;
+            position: relative;
+            width: 12.5%;
+            height: 70px;
+            text-align: center;
+            line-height: 70px;
+            font-size: 20px;
+        }
+
+        .tou ul li {
+            height: 0;
+            transition: 0.5s;
+            opacity: 0;
+            background-color: #FFCCCC;
+        }
+
+        li.tou:hover li {
+            height: 70px;
+            opacity: 1;
+            transform: translateY(0px);
+            border-radius: 20px;
+            margin-top: 5px;
+            box-shadow: 3px 3px 3px rgb(226, 27, 27);
+        }
+
+        li.tou:hover {
+            width: 12.5%;
+            box-shadow: 3px 3px 3px #FFCC99;
+            border-radius: 20px;
+            background-color: #99CCCC;
+        }
+
+
+        .ifra {
+            text-align: center;
+        }
+
+        iframe {
+            float: left;
+            width: 50%;
+            height: 700px;
+            margin-top: 50px;
+            border: medium solid#FFCC99;
+            box-sizing: border-box;
+        }
+
+        .foot {
+            height: 100px;
+            font-size: 45px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="touxiang">
+    </div>
+
+    <div class="name">
+        <h1>一头吃草的羊</h1>
+    </div>
+    <nav>
+        <div class="daohang">
+
+            <ul class="start">
+                <li class="tou one">
+                    <span><a href="第一次作业/20223433.html.html" target="le">案例一</a></span>
+                </li>
+
+                <li class="tou two">
+                    <span><a href="第二次作业/项目2：博客旅行日记.html" target="le">案例二</a></span>
+                </li>
+
+                <li class="tou threee">
+                    <span><a href="第三次作业/index.html" target="le">案例三</a></span>
+                </li>
+
+                <li class="tou four">
+                    <span><a href="电影网/index1.html" target="le">案例四</a></span>
+                </li>
+
+                <li class="tou five">
+                    <span><a href="个人介绍/person.html" target="re">个人介绍</a></span>
+                </li>
+
+                <li class="tou six">
+                    <span><a href="https://china.nba.cn/" target="re">爱好</a></span>
+                </li>
+
+                <li class="tou seven">
+                    <span><a href="https://www.w3school.com.cn/" target="re">阅读</a></span>
+                </li>
+
+                <li class="tou eight">
+                    <span><a href="技能/技能.html" target="re">技能</a></span>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="ifraleft">
+        <iframe height="500px" width="50%" name="le"></iframe>
+    </div>
+
+    <div class="ifraright">
+        <iframe height="500px" width="50%" name="re"></iframe>
+    </div>
+    <div class="foot">
+        江西科技师范大学 Web项目实训期末作业<br>
+        温逸群 20223433
+    </div>
+
+
+    <hr>
+
+</body>
+
+</html>
