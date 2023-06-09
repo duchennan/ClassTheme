@@ -5,8 +5,8 @@
     list-style: none;
     box-sizing: border-box;
 }
-body{
-	1200px;
+body {
+	width: 1200px;
 }
 .top {
     background-color: rgb(187, 109, 173);
@@ -36,7 +36,6 @@ body{
       	color: hotpink;
       }
 .container h1 {
-	font-family: 宋体;
     color: rgb(255, 255, 255);
 }
 
